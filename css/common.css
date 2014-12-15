@@ -1,0 +1,1056 @@
+/*
+--------------------- Универсальные модификаторы (начало) -----------------*/
+._hidden {
+  display: none;
+}
+._clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
+}
+._float-right {
+  float: right;
+}
+._float-left {
+  float: left;
+}
+._underline {
+  text-decoration: underline;
+}
+._uppercase {
+  text-transform: uppercase;
+}
+._bottom-bar:after {
+  content: "";
+  display: block;
+  width: 38px;
+  height: 6px;
+  margin: auto;
+  margin-top: 10px;
+  background: #f1f1f1;
+}
+._gray ._bottom-bar:after {
+  background: #d9d9de;
+}
+/*--------------------- Универсальные модификаторы (конец) ------------------
+*/
+/*
+--------------------------- Общие стили (начало) --------------------------*/
+html {
+  font: 10px sans-serif;
+}
+body {
+  min-width: 1366px;
+  font-family: 'dinpro', sans-serif;
+  color: #1a1a18;
+}
+h1,
+.h1 {
+  font-size: 40px;
+  font-family: 'dinpro-black';
+  text-transform: uppercase;
+  font-weight: normal;
+}
+h2,
+.h2 {
+  font-size: 29px;
+  font-family: 'dinpro-black';
+  text-transform: uppercase;
+  font-weight: normal;
+}
+h3,
+.h3 {
+  font-size: 17px;
+  font-family: 'dinpro-black';
+  text-transform: uppercase;
+  font-weight: normal;
+}
+a {
+  color: #525253;
+  text-decoration: none;
+}
+a:hover {
+  color: #787879;
+}
+a:active {
+  color: #9e9ea0;
+}
+/*--------------------------- Общие стили (конец) ---------------------------
+*/
+/*
+--------------------- Стили структурных блоков (начало) -------------------*/
+/* Шапка (начало) */
+.b-header {
+  width: 1366px;
+  height: 142px;
+  margin: auto;
+}
+.b-header__logo {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 320px;
+  padding: 15px 40px;
+}
+.b-header__top-line {
+  float: left;
+  height: 60px;
+  line-height: 30px;
+  padding-top: 20px;
+}
+.b-header__feedback {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 180px;
+  margin-left: 260px;
+  padding-left: 24px;
+  font-size: 15px;
+  background: url(../img/icon/b-header__feedback.png) left center no-repeat;
+}
+.b-header__search {
+  position: relative;
+  float: left;
+  font-size: 15px;
+  width: 280px;
+}
+.b-header__search-field {
+  width: 240px;
+  height: 27px;
+  padding-left: 19px;
+  border: 1px solid #c0c1c1;
+}
+.b-header__search-button {
+  position: absolute;
+  right: 27px;
+  top: 0;
+  width: 27px;
+  height: 30px;
+  background: none;
+  border: none;
+}
+.b-header__search-button:focus {
+  border: 1px dotted #c0c1c1;
+}
+.b-header__search-button > img {
+  vertical-align: middle;
+}
+.b-header__phone {
+  float: left;
+  margin-left: 100px;
+  text-align: right;
+  font-size: 24px;
+  font-family: 'dinpro-black', sans-serif;
+}
+.b-header__phone .icon-phone {
+  font-size: 0.7em;
+}
+.b-nav {
+  float: left;
+}
+.b-nav__item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  height: 41px;
+  border-left: 1px solid #c0c1c1;
+  background: url(../img/bg/b-nav__item_current.png) -12px 6px no-repeat;
+  -webkit-transition: 0.3s background-position;
+  -moz-transition: 0.3s background-position;
+  transition: 0.3s background-position;
+}
+.b-nav__item:hover {
+  background-position: 0 6px;
+}
+.b-nav__item._current {
+  color: #1a1a18;
+  font-weight: bold;
+  background-position: 0 6px;
+}
+.b-nav__item._width-120 {
+  width: 120px;
+}
+.b-nav__item._width-140 {
+  width: 140px;
+}
+.b-nav__item._width-180 {
+  width: 180px;
+}
+.b-nav__link {
+  display: block;
+  padding-left: 19px;
+  padding-right: 19px;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+/* Шапка (конец) */
+/* Подвал (начало) */
+.b-footer {
+  color: #edeff2;
+}
+.b-footer a {
+  color: #edeff2;
+}
+.b-footer__top {
+  background: #152b47;
+  clear: both;
+}
+.b-footer__wrapper {
+  max-width: 1120px;
+  margin: auto;
+  padding: 14px 0 18px;
+}
+.b-footer__wrapper:after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
+}
+.b-footer__phone {
+  float: left;
+  position: relative;
+  left: -31px;
+  text-align: right;
+  font-size: 27px;
+  font-family: 'dinpro-black', sans-serif;
+}
+.b-footer__phone .icon-phone {
+  font-size: 0.9em;
+  vertical-align: middle;
+}
+a.b-footer__goto-top {
+  display: block;
+  float: right;
+  width: 70px;
+  height: 48px;
+  padding-top: 10px;
+  background: #edeff2;
+  color: #152b48;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+a.b-footer__goto-top:before {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 12.5px solid transparent;
+  border-right: 12.5px solid transparent;
+  border-bottom: 18px solid #152b48;
+}
+.b-footer__bottom {
+  height: 60px;
+  clear: both;
+  font-size: 16px;
+  font-family: 'dinpro-light', sans-serif;
+  background: #0a1d35;
+}
+.b-footer__bottom-left {
+  float: left;
+}
+.b-footer__bottom-right {
+  float: right;
+}
+a.b-footer__button {
+  font-family: 'dinpro-black', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 9px 29px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border: 1px solid #edeff2;
+  color: #edeff2;
+  margin-top: 10px;
+}
+a.b-footer__button:hover {
+  background: #edeff2;
+  color: #152b47;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Подвал (конец) */
+/* Переключающиеся баннеры (начало) */
+.b-promo {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  padding-bottom: 100px;
+  background: #525253;
+  color: #fff;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  /* 	&:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 60px;
+	margin-left: -240px;
+	width: 480px;
+	height: 1px;
+	background: #fff;
+} */
+}
+.b-promo:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  margin-left: -45px;
+  width: 90px;
+  height: 5px;
+  background: #fff;
+}
+.b-promo__top-line {
+  content: "";
+  position: absolute;
+  left: -1000px;
+  top: 0;
+  width: 966px;
+  height: 15px;
+  background: url(../img/bg/b-promo__top-line.png) left top no-repeat;
+  -webkit-transition: left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -moz-transition: left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.b-promo__top-line._loaded {
+  left: 0;
+}
+.b-promo__bottom-line {
+  content: "";
+  position: absolute;
+  right: -1000px;
+  bottom: 0;
+  width: 969px;
+  height: 15px;
+  background: url(../img/bg/b-promo__bottom-line.png) left top no-repeat;
+  -webkit-transition: right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -moz-transition: right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.b-promo__bottom-line._loaded {
+  right: 0;
+}
+.b-promo__title {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.b-promo__description {
+  max-width: 720px;
+  margin: auto;
+  font-size: 22px;
+  line-height: 27px;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Переключающиеся баннеры (конец) */
+/* Секция с заголовком (начало) */
+.b-section {
+  padding: 70px 0;
+  text-align: center;
+}
+.b-section._top-line {
+  padding-top: 0;
+}
+.b-section._top-line:before {
+  content: "";
+  display: block;
+  width: 800px;
+  height: 0;
+  margin: auto;
+  margin-bottom: 70px;
+  border-top: 1px solid #c0c1c1;
+}
+.b-section._no-padding-top {
+  padding-top: 0;
+}
+.b-section._no-padding-bottom {
+  padding-bottom: 0;
+}
+.b-section._small-padding-top {
+  padding-top: 40px;
+}
+.b-section._gray {
+  background: #f1f1f1;
+}
+.b-section__title {
+  max-width: 1120px;
+  margin: auto;
+}
+.b-section__description {
+  max-width: 960px;
+  margin: auto;
+  padding: 40px 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: 'dinpro-light';
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Секция с заголовком (конец) */
+/* ИМЯ_МОДУЛЯ (начало) */
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* ИМЯ_МОДУЛЯ (конец) */
+/* Партнеры (начало) */
+.b-partners {
+  font-size: 19px;
+  line-height: 20px;
+}
+.b-partners__list {
+  width: 1120px;
+  margin: auto;
+  text-align: justify;
+  text-align-last: justify;
+  line-height: 0;
+}
+.b-partners__list > * {
+  display: inline-block;
+  vertical-align: top;
+  line-height: normal;
+}
+.b-partners__list:after {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+.b-partners__item {
+  width: 350px;
+  height: 300px;
+  text-align: left;
+}
+.b-partners__logo {
+  display: block;
+  height: 80px;
+  line-height: 80px;
+}
+.b-partners__logo > img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.b-partners__address > strong {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+.b-partners__address > span {
+  color: #525253;
+  font-family: 'dinpro-light', sans-serif;
+}
+.b-partners__phone > strong {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+.b-partners__phone > span {
+  color: #525253;
+  font-family: 'dinpro-light', sans-serif;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Партнеры (конец) */
+/* Превьюшки с подписями (начало) */
+.b-previews {
+  font-size: 19px;
+  line-height: 20px;
+  width: 1120px;
+  margin: auto;
+}
+.b-previews__list {
+  margin-right: -35px;
+  padding: 70px 0 25px;
+}
+.b-previews__list:after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
+}
+.b-previews__item {
+  position: relative;
+  float: left;
+  width: 340px;
+  height: 186px;
+  margin-bottom: 50px;
+  margin-right: 45px;
+  text-align: left;
+}
+.b-previews__item:hover .b-previews__text {
+  background: #db0303;
+  padding-bottom: 20px;
+}
+.b-previews__link {
+  display: block;
+}
+.b-previews__link > img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.b-previews__text {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 15px;
+  background: #4e698b;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Превьюшки с подписями (конец) */
+/* ПДФки (начало) */
+.b-pdf {
+  font-size: 19px;
+  line-height: 20px;
+  padding: 60px 0 35px;
+}
+.b-pdf__list {
+  width: 1120px;
+  margin: auto;
+}
+.b-pdf__list:after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
+}
+.b-pdf__item {
+  float: left;
+  width: 25%;
+  height: 100px;
+  text-align: left;
+}
+.b-pdf__link {
+  display: block;
+}
+.b-pdf__link:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 70px;
+  height: 70px;
+  background: url(../img/icon/pdf.png) left top no-repeat;
+}
+.b-pdf__link:hover:before {
+  background-position: left bottom;
+}
+.b-pdf__link:hover .b-pdf__text {
+  color: #db0303;
+}
+.b-pdf__text {
+  display: inline-block;
+  width: 170px;
+  vertical-align: top;
+  font-weight: bold;
+  font-size: 17px;
+  color: #4e698b;
+  text-decoration: underline;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* ПДФки (конец) */
+/*--------------------- Стили структурных блоков (конец) --------------------
+*/
+/*
+-------------------- Индивидуальные стили страниц (начало) ----------------*/
+/* Главная страница (начало) */
+.page-main .b-features {
+  font-size: 19px;
+  line-height: 20px;
+}
+.page-main .b-features__list {
+  width: 1120px;
+  margin: auto;
+  text-align: justify;
+  text-align-last: justify;
+  line-height: 0;
+}
+.page-main .b-features__list > * {
+  display: inline-block;
+  vertical-align: top;
+  line-height: normal;
+}
+.page-main .b-features__list:after {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+.page-main .b-features__item {
+  width: 320px;
+  text-align: center;
+}
+.page-main .b-features__logo {
+  display: block;
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  line-height: 140px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #f1f1f1;
+}
+.page-main .b-features__logo > img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.page-main .b-features__title {
+  max-width: 250px;
+  margin: auto;
+  margin-top: 20px;
+}
+.page-main .b-features__text {
+  padding: 15px 0;
+  font-family: 'dinpro-light', sans-serif;
+  font-style: italic;
+  font-size: 17px;
+  line-height: 26px;
+  color: #525253;
+}
+.page-main .b-map {
+  width: 100%;
+  height: 550px;
+  background: url(../img/content/map_big.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.page-main .b-contacts {
+  position: absolute;
+  width: 100%;
+  padding-top: 140px;
+}
+.page-main .b-contacts__wrapper {
+  width: 1120px;
+  margin: auto;
+}
+.page-main .b-contacts__text {
+  background: #4e698b;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  width: 290px;
+  float: right;
+  padding: 28px 26px;
+  text-align: left;
+}
+.page-main .b-contacts__text span.phone {
+  margin-left: 35px;
+}
+.page-main .b-contacts__button {
+  font-family: 'dinpro-black';
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 13px 29px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-top: 38px;
+}
+.page-main .b-contacts__button:hover {
+  background: #fff;
+  color: #4e698b;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 -------------------------------------- */
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Главная страница (конец) */
+/* Главная страница (начало) */
+.page-complex {
+  /* equipment setting*/
+  /* equipment setting end*/
+}
+.page-complex .wrapper--equipment .content {
+  padding: 31px 242px 80px;
+}
+.page-complex .stages__item {
+  margin-top: 20px;
+  counter-increment: сstage 1;
+}
+.page-complex .stages__item:before {
+  content: counter(сstage);
+  display: block;
+  text-align: center;
+  font-family: 'dinpro-black';
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+.page-complex .stages__item:not(:last-child):after {
+  content: "";
+  background: url(../img/pages/complex/long-arrow.png) no-repeat;
+  width: 12px;
+  height: 65px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.page-complex .stages__item .h2 {
+  margin-bottom: 35px;
+  text-align: center;
+  text-transform: none;
+}
+.page-complex .stages__item__descr {
+  margin-top: 10px;
+  font-family: 'dinpro-light';
+  font-style: italic;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #525252;
+}
+.page-complex .stages__item__slides {
+  text-align: center;
+  font-size: 0px;
+}
+.page-complex .stages__item__slides .item {
+  display: inline;
+  margin-right: 2px;
+}
+.page-complex .stages__item .accented {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'dinpro-black';
+  margin-bottom: 40px;
+  color: #000;
+  margin-top: 30px;
+}
+.page-complex .stages__item .two-column-list {
+  font-size: 18px;
+  font-family: 'dinpro-light';
+  padding: 0 30px;
+  display: block;
+}
+.page-complex .stages__item .two-column-list li {
+  list-style: none;
+  color: #525252;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 30px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.page-complex .stages__item .two-column-list li.f-right {
+  float: right;
+}
+.page-complex .stages__item .two-column-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0px;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 -------------------------------------- */
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Главная страница (конец) */
+/* Главная страница (начало) */
+.page-contacts {
+  border-top: 5px solid #f1f1f1;
+  padding-top: 54px;
+}
+.page-contacts .wrapper--contacts .content__body {
+  padding: 0 94px 160px 108px;
+  overflow: hidden;
+  max-width: 1366px;
+  margin: auto;
+}
+.page-contacts .h1--lined {
+  padding-bottom: 26px;
+  position: relative;
+}
+.page-contacts .h1--lined:after {
+  content: "";
+  width: 40px;
+  height: 6px;
+  background: #f1f1f1;
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  margin-left: -20px;
+}
+.page-contacts .wrapper--contacts .content__head {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.page-contacts .wrapper--contacts .content__body__right {
+  background: #f1f1f1;
+  width: 290px;
+  float: right;
+  padding: 28px 20px;
+  margin-left: -100%;
+  font-size: 18px;
+}
+.page-contacts .wrapper--contacts .content__body__left {
+  float: left;
+  padding-right: 372px;
+}
+.page-contacts .wrapper--contacts .content__body__right span.phone {
+  margin-left: 35px;
+}
+.page-contacts .wrapper--contacts .btn {
+  font-family: 'dinpro-black';
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 13px 29px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.page-contacts .wrapper--contacts .btn.btn--excursion {
+  border: 1px solid #4e698b;
+  color: #4e698b;
+  margin-top: 38px;
+}
+.page-contacts .contacts__map {
+  width: 791px;
+  height: 418px;
+}
+.page-contacts .contacts__people {
+  margin-top: 64px;
+}
+.page-contacts .contacts__people__item {
+  float: left;
+  list-style: none;
+  font-size: 18px;
+  width: 50%;
+  border-bottom: 1px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 40px;
+}
+.page-contacts .contacts__people__item:nth-child(odd) {
+  border-left: none;
+  padding-left: 0px;
+}
+.page-contacts .contacts__people__item:nth-last-child(2),
+.page-contacts .contacts__people__item:last-child {
+  border-bottom: 0px;
+  padding-top: 40px;
+}
+.page-contacts .contacts__people__item:nth-child(2),
+.page-contacts .contacts__people__item:first-child {
+  padding-bottom: 40px;
+}
+.page-contacts .contacts__people__item .work-position {
+  font-family: 'dinpro-black';
+}
+.page-contacts .bold {
+  font-family: 'dinpro';
+  font-weight: bold;
+}
+.page-contacts .contacts__people__item .person-contacts {
+  margin-top: 15px;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 -------------------------------------- */
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Главная страница (конец) */
+/* Главная страница (начало) */
+.page-gear {
+  background: #f5f5f5;
+  padding-top: 70px;
+}
+.page-gear .wrapper.wrapper--equipment-inside .content {
+  overflow: hidden;
+  padding: 0 120px;
+  max-width: 1366px;
+  margin: auto;
+}
+.page-gear .equipment__left-column {
+  width: 338px;
+  float: left;
+  margin-right: -100%;
+  padding-top: 80px;
+  text-align: center;
+}
+.page-gear .wrapper.wrapper--equipment-inside .content__body__item {
+  border-bottom: 1px solid #c0c1c1;
+  overflow: hidden;
+}
+.page-gear .wrapper.wrapper--equipment-inside .content__body__item:last-child {
+  border-bottom: none;
+}
+.page-gear .equipment__right-column {
+  float: right;
+  padding: 40px 0px 46px 338px;
+}
+.page-gear .equipment__right-column .h3 {
+  font-family: 'dinpro-black';
+  font-size: 22px;
+  color: #db0000;
+  text-align: left;
+}
+.page-gear .equipment__properties {
+  background: #fff;
+  padding: 20px 28px 38px 29px;
+  color: #525252;
+}
+.page-gear .eq__prop__col--head {
+  border-bottom: 3px solid #c0c1c1;
+}
+.page-gear .eq__prop__col {
+  padding: 8px 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #c0c1c1;
+}
+.page-gear .eq__prop__col:last-child {
+  border-bottom: none;
+}
+.page-gear .eq__prop__col--hl {
+  background: #f1f1f1;
+}
+.page-gear .eq__prop__col .name {
+  width: 480px;
+}
+.page-gear .content .h1--opening {
+  position: relative;
+}
+.page-gear .content .h1--opening:hover .inside-menu {
+  display: block;
+}
+.page-gear .inside-menu .h1--opening {
+  margin-top: 0px;
+}
+.page-gear .h1--opening i {
+  width: 20px;
+  height: 26px;
+  background: url(../i/arrow-down.png) no-repeat 0px 4px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.page-gear .inside-menu {
+  background: #fff;
+  width: 671px;
+  padding-top: 27px;
+  position: absolute;
+  top: -27px;
+  left: 50%;
+  margin-left: -335px;
+  display: none;
+  text-align: left;
+  text-transform: none;
+}
+.page-gear .inside-menu__ul {
+  overflow: hidden;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  margin-top: 35px;
+}
+.page-gear .inside-menu__item {
+  list-style: none;
+  font-family: 'dinpro';
+  font-weight: bold;
+  color: #4e698b;
+  display: block;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.page-gear .inside-menu__item a {
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+.page-gear .inside-menu__item.active {
+  color: #d70000;
+  border-bottom: transparent;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 -------------------------------------- */
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Главная страница (конец) */
+/* Главная страница (начало) */
+.page-404 {
+  background: #f2f1f1;
+  height: 100%;
+}
+.page-404 .wrapper--404 .content__head {
+  height: 280px;
+  background: #fff;
+  border-bottom: 1px solid #d3d3d2;
+  margin-bottom: 135px;
+}
+.page-404 .wrapper--404 .content__head__illustration {
+  width: 718px;
+  height: 253px;
+  position: absolute;
+  top: 91px;
+  left: 50%;
+  margin-left: -370px;
+}
+.page-404 .light {
+  font-family: 'dinpro-light';
+  font-size: 23px;
+  padding: 50px 0 100px;
+}
+.page-404 .content__body {
+  max-width: 920px;
+  margin: auto;
+  text-align: center;
+}
+.page-404 .b-nav {
+  float: none;
+  margin: auto;
+  max-width: 1024px;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 -------------------------------------- */
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Главная страница (конец) */
+/*--------------------- Индивидуальные стили страниц (конец) ----------------
+*/

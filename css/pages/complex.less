@@ -1,0 +1,186 @@
+@import "../default/mixins.less";
+
+
+/* Главная страница (начало) */
+
+
+
+.page-complex
+{
+
+
+
+
+
+
+	/* equipment setting*/
+	.wrapper--equipment .content{
+		padding:31px 242px 80px;
+	}
+	.stages__item{
+		margin-top:20px;
+		counter-increment: сstage 1;
+	}
+	.stages__item:before{
+		content: e("counter(сstage)");
+		display: block;
+		text-align: center;
+		font-family: 'dinpro-black';
+		font-size: 36px;
+		margin-bottom: 12px;
+	}
+	.stages__item:not(:last-child):after{
+		content:"";
+		background: url(../img/pages/complex/long-arrow.png) no-repeat;
+		width:12px;
+		height: 65px;
+		display: block;
+		margin: 0 auto;
+		margin-top:25px;
+	}
+	.stages__item .h2{
+		margin-bottom:35px;
+		text-align: center;
+		text-transform: none;
+	}
+	.stages__item__descr{
+		margin-top: 10px;
+		font-family: 'dinpro-light';
+		font-style: italic;
+		font-size:16px;
+		line-height: 22px;
+		text-align: center;
+		margin-bottom: 15px;
+		color:#525252;
+	}
+	.stages__item__slides{
+		text-align: center;
+		font-size: 0px;
+	}
+	.stages__item__slides .item{
+		display: inline;
+		margin-right: 2px;
+	}
+	.stages__item .accented{
+		text-align: center;
+		font-size: 18px;
+		font-family: 'dinpro-black';
+		margin-bottom: 40px;
+		color:#000;
+		margin-top:30px;
+	}
+	.stages__item .two-column-list{
+		font-size: 18px;
+		font-family: 'dinpro-light';
+		padding: 0 30px;
+		display: block;
+	}
+	.stages__item .two-column-list li{
+		list-style: none;
+		color:#525252;
+		float:left;
+		width:50%;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		padding-left: 16px;
+		padding-right:30px;
+		position: relative;
+		margin-bottom: 30px;
+	}
+	.stages__item .two-column-list li.f-right{
+		float:right;
+	}
+	.stages__item .two-column-list li:before{
+		content:"•";
+		position: absolute;
+		left:0px;
+	}
+
+/* equipment setting end*/
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*-------------------------------------- 480 --------------------------------------*/
+@media screen and (min-width: 480px)
+{
+	.page-complex
+	{
+
+	}
+}
+
+
+
+
+
+
+
+/*-------------------------------------- 768 -------------------------------------- */
+@media screen and (min-width: 768px) 
+{
+	.page-complex
+	{
+
+	}
+}
+
+
+
+
+
+
+
+/*-------------------------------------- 1024 -------------------------------------*/
+@media screen and (min-width: 1024px)
+{
+	.page-complex
+	{
+
+	}
+}
+
+
+
+
+
+
+
+/*-------------------------------------- до 768 -------------------------------------*/
+@media screen and (max-width: 767px)
+{
+	.page-complex
+	{
+
+	}
+}
+
+
+
+
+
+
+
+/*-------------------------------------- до 1024 -------------------------------------*/
+@media screen and (max-width: 1023px)
+{
+	.page-complex
+	{
+
+	}
+}
+
+
+
+/* Главная страница (конец) */

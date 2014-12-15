@@ -1,0 +1,136 @@
+@import "../default/mixins.less";
+
+
+
+
+/* Шапка (начало) */
+
+
+.b-header {
+	width: @min-width;
+	height: 142px;
+	margin: auto;
+}
+
+.b-header__logo {
+	.box-sizing(border-box);
+	float: left;
+	width: 320px;
+	padding: 15px 40px;
+}
+
+.b-header__top-line {
+	float: left;
+	height: 60px;
+	line-height: 30px;
+	padding-top: 20px;
+}
+
+.b-header__feedback {
+	.box-sizing(border-box);
+	float: left;
+	width: 180px;
+	margin-left: 260px;
+	padding-left: 24px;
+	font-size: 15px;
+	background: url(../img/icon/b-header__feedback.png) left center no-repeat;
+}
+
+.b-header__search {
+	position: relative;
+	float: left;
+	font-size: 15px;
+	width: 280px;
+}
+
+.b-header__search-field {
+	width: 240px;
+	height: 27px;
+	padding-left: 19px;
+	border: 1px solid @light-gray;
+}
+
+.b-header__search-button {
+	position: absolute;
+	right: 27px;
+	top: 0;
+	width: 27px;
+	height: 30px;
+	background: none;
+	border: none;
+
+	&:focus {
+		border: 1px dotted @light-gray;
+	}
+
+	& > img {
+		vertical-align: middle;
+	}
+}
+
+.b-header__phone {
+	float: left;
+	margin-left: 100px;
+	//padding-left: 20px;
+	text-align: right;
+	font-size: 24px;
+	font-family: 'dinpro-black', sans-serif;
+	//background: url(../img/icon/b-header__phone.png) left center no-repeat;
+
+	.icon-phone {
+		font-size: 0.7em;
+	}
+}
+
+
+
+
+
+.b-nav {
+	float: left;
+}
+
+.b-nav__list {
+	;
+}
+
+.b-nav__item {
+	.box-sizing(border-box);
+	float: left;
+	height: 41px;
+	border-left: 1px solid @light-gray;
+	background: url(../img/bg/b-nav__item_current.png) -12px 6px no-repeat;
+	.transition(0.3s background-position);
+	&:hover { background-position: 0 6px }
+
+	&._current {
+		color: @black;
+		font-weight: bold;
+		background-position: 0 6px
+		//background: url(../img/bg/b-nav__item_current.png) left 6px no-repeat;
+	}
+
+	&._width-120 { width: 120px; }
+	&._width-140 { width: 140px; }
+	&._width-180 { width: 180px; }
+}
+
+.b-nav__link {
+	display: block;
+	padding-left: 19px;
+	padding-right: 19px;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+/* Шапка (конец) */

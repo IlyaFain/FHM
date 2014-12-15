@@ -1,0 +1,118 @@
+@import "default/mixins.less";
+
+
+
+
+
+/*
+--------------------- Универсальные модификаторы (начало) -----------------*/
+
+._hidden      { display: none; }
+._clearfix    { .clearfix();   }
+._float-right { float: right;  }
+._float-left  { float: left;   }
+._underline   { text-decoration: underline; }
+._uppercase   { text-transform: uppercase; }
+
+._bottom-bar {
+	&:after {
+		content: "";
+		display: block;
+		width: 38px;
+		height: 6px;
+		margin: auto;
+		margin-top: 10px;
+		background: #f1f1f1;
+	}
+
+	._gray & {
+		&:after {
+			background: #d9d9de;
+		}
+	}
+}
+
+/*--------------------- Универсальные модификаторы (конец) ------------------
+*/
+
+
+
+
+
+/*
+--------------------------- Общие стили (начало) --------------------------*/
+
+html { font: 10px sans-serif; }
+body {
+	min-width: @min-width;
+	font-family: 'dinpro', sans-serif;
+	color: @black;
+}
+
+h1,.h1 {
+	font-size: 40px;
+	font-family: 'dinpro-black';
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h2,.h2 {
+	font-size: 29px;
+	font-family: 'dinpro-black';
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h3,.h3 {
+	font-size: 17px;
+	font-family: 'dinpro-black';
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+a {
+	@color: @gray;
+	color: @color;
+	text-decoration: none;
+	//.transition(0.3s all);
+
+	//&:visited { color: @color }
+	&:hover { color: lighten(@color, 15%) }
+	&:active { color: lighten(@color, 30%) }
+}
+
+.b-content {}
+
+/*--------------------------- Общие стили (конец) ---------------------------
+*/
+
+
+
+
+
+/*
+--------------------- Стили структурных блоков (начало) -------------------*/
+@import "modules/b-header.less";
+@import "modules/b-footer.less";
+@import "modules/b-promo.less";
+@import "modules/b-section.less";
+@import "modules/b-tile.less";
+@import "modules/b-partners.less";
+@import "modules/b-previews.less";
+@import "modules/b-pdf.less";
+/*--------------------- Стили структурных блоков (конец) --------------------
+*/
+
+
+
+
+
+/*
+-------------------- Индивидуальные стили страниц (начало) ----------------*/
+@import "pages/main.less";
+@import "pages/complex.less";
+@import "pages/contacts.less";
+@import "pages/gear.less";
+@import "pages/404.less";
+/*--------------------- Индивидуальные стили страниц (конец) ----------------
+*/

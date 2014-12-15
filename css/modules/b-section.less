@@ -1,0 +1,141 @@
+@import "../default/mixins.less";
+
+
+
+/* Секция с заголовком (начало) */
+
+	// пример разметки:
+	// <section class="b-section">
+	// 	<h2 class="b-section__title">Проекты</h2>
+	// 	<div class="b-section__description"></div>
+	// 	<div class="b-section__content"></div>
+	// </section>
+
+
+.b-section {
+	padding: 70px 0;
+	text-align: center;
+
+	&._top-line {
+		padding-top: 0;
+
+		&:before {
+			content: "";
+			display: block;
+			width: 800px;
+			height: 0;
+			margin: auto;
+			margin-bottom: 70px;
+			border-top: 1px solid @light-gray;
+		}
+	}
+
+	&._no-padding-top {
+		padding-top: 0;
+	}
+
+	&._no-padding-bottom {
+		padding-bottom: 0;
+	}
+
+	&._small-padding-top {
+		padding-top: 40px;
+	}
+
+	&._gray {
+		background: #f1f1f1;
+	}
+}
+
+
+.b-section__title {
+	max-width: @content-width;
+	margin: auto;
+}
+
+
+.b-section__description {
+	max-width: 960px;
+	margin: auto;
+	padding: 40px 0;
+	font-size: 18px;
+	line-height: 26px;
+	font-family: 'dinpro-light';
+}
+
+
+.b-section__content {
+	;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------- 480 --------------------------------------*/
+@media screen and (min-width: 480px)
+{
+	
+}
+
+
+
+
+
+
+
+/*-------------------------------------- 768 --------------------------------------*/
+@media screen and (min-width: 768px) 
+{
+	
+}
+
+
+
+
+
+
+
+/*-------------------------------------- 1024 -------------------------------------*/
+@media screen and (min-width: 1024px)
+{
+	
+}
+
+
+
+
+
+
+
+/*-------------------------------------- до 768 -------------------------------------*/
+@media screen and (max-width: 767px)
+{
+	
+}
+
+
+
+
+
+
+/*-------------------------------------- до 1024 -------------------------------------*/
+@media screen and (max-width: 1023px)
+{
+	
+}
+
+
+
+/* Секция с заголовком (конец) */

@@ -1,0 +1,147 @@
+@import "../default/mixins.less";
+
+
+
+/* Переключающиеся баннеры (начало) */
+
+
+.b-promo {
+	position: relative;
+	width: 100%;
+	min-height: 400px;
+	padding-bottom: 100px;
+	background: @gray;
+	color: #fff;
+	text-align: center;
+	.background-size(cover);
+	overflow: hidden;
+
+/* 	&:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 60px;
+	margin-left: -240px;
+	width: 480px;
+	height: 1px;
+	background: #fff;
+} */
+
+	&:after {
+		content: "";
+		position: absolute;
+		left: 50%;
+		bottom: 60px;
+		margin-left: -45px;
+		width: 90px;
+		height: 5px;
+		background: #fff;
+	}
+}
+
+.b-promo__top-line {
+	content: "";
+	position: absolute;
+	left: -1000px;
+	top: 0;
+	width: 966px;
+	height: 15px;
+	background: url(../img/bg/b-promo__top-line.png) left top no-repeat;
+	.transition(left 1s @quad-out);
+
+	&._loaded { left: 0; }
+}
+
+.b-promo__bottom-line {
+	content: "";
+	position: absolute;
+	right: -1000px;
+	bottom: 0;
+	width: 969px;
+	height: 15px;
+	background: url(../img/bg/b-promo__bottom-line.png) left top no-repeat;
+	.transition(right 1s @quad-out);
+
+	&._loaded { right: 0; }
+}
+
+.b-promo__title {
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+
+.b-promo__description {
+	max-width: 720px;
+	margin: auto;
+	font-size: 22px;
+	line-height: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------- 480 --------------------------------------*/
+@media screen and (min-width: 480px)
+{
+	
+}
+
+
+
+
+
+
+
+/*-------------------------------------- 768 --------------------------------------*/
+@media screen and (min-width: 768px) 
+{
+	
+}
+
+
+
+
+
+
+
+/*-------------------------------------- 1024 -------------------------------------*/
+@media screen and (min-width: 1024px)
+{
+	
+}
+
+
+
+
+
+
+
+/*-------------------------------------- до 768 -------------------------------------*/
+@media screen and (max-width: 767px)
+{
+	
+}
+
+
+
+
+
+
+/*-------------------------------------- до 1024 -------------------------------------*/
+@media screen and (max-width: 1023px)
+{
+	
+}
+
+
+
+/* Переключающиеся баннеры (конец) */

@@ -1,0 +1,47 @@
+/* Секция с заголовком (начало) */
+.b-section {
+  padding: 70px 0;
+  text-align: center;
+}
+.b-section._top-line {
+  padding-top: 0;
+}
+.b-section._top-line:before {
+  content: "";
+  display: block;
+  width: 800px;
+  height: 0;
+  margin: auto;
+  margin-bottom: 70px;
+  border-top: 1px solid #c0c1c1;
+}
+.b-section._no-padding-top {
+  padding-top: 0;
+}
+.b-section._no-padding-bottom {
+  padding-bottom: 0;
+}
+.b-section._small-padding-top {
+  padding-top: 40px;
+}
+.b-section._gray {
+  background: #f1f1f1;
+}
+.b-section__title {
+  max-width: 1120px;
+  margin: auto;
+}
+.b-section__description {
+  max-width: 960px;
+  margin: auto;
+  padding: 40px 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: 'dinpro-light';
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Секция с заголовком (конец) */

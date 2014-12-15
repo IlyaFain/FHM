@@ -1,0 +1,61 @@
+/* Партнеры (начало) */
+.b-partners {
+  font-size: 19px;
+  line-height: 20px;
+}
+.b-partners__list {
+  width: 1120px;
+  margin: auto;
+  text-align: justify;
+  text-align-last: justify;
+  line-height: 0;
+}
+.b-partners__list > * {
+  display: inline-block;
+  vertical-align: top;
+  line-height: normal;
+}
+.b-partners__list:after {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+.b-partners__item {
+  width: 350px;
+  height: 300px;
+  text-align: left;
+}
+.b-partners__logo {
+  display: block;
+  height: 80px;
+  line-height: 80px;
+}
+.b-partners__logo > img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.b-partners__address > strong {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+.b-partners__address > span {
+  color: #525253;
+  font-family: 'dinpro-light', sans-serif;
+}
+.b-partners__phone > strong {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+.b-partners__phone > span {
+  color: #525253;
+  font-family: 'dinpro-light', sans-serif;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Партнеры (конец) */

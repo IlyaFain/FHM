@@ -1,0 +1,40 @@
+/* Главная страница (начало) */
+.page-404 {
+  background: #f2f1f1;
+  height: 100%;
+}
+.page-404 .wrapper--404 .content__head {
+  height: 280px;
+  background: #fff;
+  border-bottom: 1px solid #d3d3d2;
+  margin-bottom: 135px;
+}
+.page-404 .wrapper--404 .content__head__illustration {
+  width: 718px;
+  height: 253px;
+  position: absolute;
+  top: 91px;
+  left: 50%;
+  margin-left: -370px;
+}
+.page-404 .light {
+  font-family: 'dinpro-light';
+  font-size: 23px;
+  padding: 50px 0 100px;
+}
+.page-404 .content__body {
+  max-width: 920px;
+  margin: auto;
+  text-align: center;
+}
+.page-404 .b-nav {
+  float: none;
+  margin: auto;
+  max-width: 1024px;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 -------------------------------------- */
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Главная страница (конец) */

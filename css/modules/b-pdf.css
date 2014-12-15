@@ -1,0 +1,54 @@
+/* ПДФки (начало) */
+.b-pdf {
+  font-size: 19px;
+  line-height: 20px;
+  padding: 60px 0 35px;
+}
+.b-pdf__list {
+  width: 1120px;
+  margin: auto;
+}
+.b-pdf__list:after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
+}
+.b-pdf__item {
+  float: left;
+  width: 25%;
+  height: 100px;
+  text-align: left;
+}
+.b-pdf__link {
+  display: block;
+}
+.b-pdf__link:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 70px;
+  height: 70px;
+  background: url(../img/icon/pdf.png) left top no-repeat;
+}
+.b-pdf__link:hover:before {
+  background-position: left bottom;
+}
+.b-pdf__link:hover .b-pdf__text {
+  color: #db0303;
+}
+.b-pdf__text {
+  display: inline-block;
+  width: 170px;
+  vertical-align: top;
+  font-weight: bold;
+  font-size: 17px;
+  color: #4e698b;
+  text-decoration: underline;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* ПДФки (конец) */

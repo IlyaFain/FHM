@@ -1,0 +1,109 @@
+/* Шапка (начало) */
+.b-header {
+  width: 1366px;
+  height: 142px;
+  margin: auto;
+}
+.b-header__logo {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 320px;
+  padding: 15px 40px;
+}
+.b-header__top-line {
+  float: left;
+  height: 60px;
+  line-height: 30px;
+  padding-top: 20px;
+}
+.b-header__feedback {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 180px;
+  margin-left: 260px;
+  padding-left: 24px;
+  font-size: 15px;
+  background: url(../img/icon/b-header__feedback.png) left center no-repeat;
+}
+.b-header__search {
+  position: relative;
+  float: left;
+  font-size: 15px;
+  width: 280px;
+}
+.b-header__search-field {
+  width: 240px;
+  height: 27px;
+  padding-left: 19px;
+  border: 1px solid #c0c1c1;
+}
+.b-header__search-button {
+  position: absolute;
+  right: 27px;
+  top: 0;
+  width: 27px;
+  height: 30px;
+  background: none;
+  border: none;
+}
+.b-header__search-button:focus {
+  border: 1px dotted #c0c1c1;
+}
+.b-header__search-button > img {
+  vertical-align: middle;
+}
+.b-header__phone {
+  float: left;
+  margin-left: 100px;
+  text-align: right;
+  font-size: 24px;
+  font-family: 'dinpro-black', sans-serif;
+}
+.b-header__phone .icon-phone {
+  font-size: 0.7em;
+}
+.b-nav {
+  float: left;
+}
+.b-nav__item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  height: 41px;
+  border-left: 1px solid #c0c1c1;
+  background: url(../img/bg/b-nav__item_current.png) -12px 6px no-repeat;
+  -webkit-transition: 0.3s background-position;
+  -moz-transition: 0.3s background-position;
+  transition: 0.3s background-position;
+}
+.b-nav__item:hover {
+  background-position: 0 6px;
+}
+.b-nav__item._current {
+  color: #1a1a18;
+  font-weight: bold;
+  background-position: 0 6px;
+}
+.b-nav__item._width-120 {
+  width: 120px;
+}
+.b-nav__item._width-140 {
+  width: 140px;
+}
+.b-nav__item._width-180 {
+  width: 180px;
+}
+.b-nav__link {
+  display: block;
+  padding-left: 19px;
+  padding-right: 19px;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+/* Шапка (конец) */

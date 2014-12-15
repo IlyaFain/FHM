@@ -1,0 +1,50 @@
+/* Превьюшки с подписями (начало) */
+.b-previews {
+  font-size: 19px;
+  line-height: 20px;
+}
+.b-previews__list {
+  width: 1120px;
+  margin: auto;
+  text-align: justify;
+  text-align-last: justify;
+  line-height: 0;
+}
+.b-previews__list > * {
+  display: inline-block;
+  vertical-align: top;
+  line-height: normal;
+}
+.b-previews__list:after {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+.b-previews__item {
+  width: 340px;
+  height: 186px;
+  text-align: left;
+}
+.b-previews__link {
+  display: block;
+}
+.b-previews__link > img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.b-previews__text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 15px;
+  background: #4e698b;
+  color: #fff;
+}
+/*-------------------------------------- 480 --------------------------------------*/
+/*-------------------------------------- 768 --------------------------------------*/
+/*-------------------------------------- 1024 -------------------------------------*/
+/*-------------------------------------- до 768 -------------------------------------*/
+/*-------------------------------------- до 1024 -------------------------------------*/
+/* Превьюшки с подписями (конец) */
