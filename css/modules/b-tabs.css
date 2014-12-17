@@ -1,0 +1,76 @@
+/* Вкладки (начало) */
+.b-tabs {
+  width: 960px;
+  margin: auto;
+  background: #fff;
+}
+.b-tabs__buttons:after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
+}
+.b-tabs__buttons > li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 160px;
+  height: 46px;
+  line-height: 46px;
+  float: left;
+  text-align: center;
+  color: #4e698b;
+  font-family: 'dinpro-black', sans-serif;
+  font-size: 17px;
+  border-left: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  cursor: pointer;
+  -webkit-transition: 0.3s color;
+  -moz-transition: 0.3s color;
+  transition: 0.3s color;
+}
+.b-tabs__buttons > li:first-child {
+  border-left: 0;
+}
+.b-tabs__buttons > li._current {
+  color: #db0303;
+  border-bottom: 0;
+}
+.b-tabs__buttons > li:hover {
+  color: #db0303;
+}
+.b-tabs__contents > li {
+  display: none;
+  padding: 40px 0;
+  font-size: 18px;
+  line-height: 33px;
+  color: #525252;
+}
+.b-tabs__contents > li dl:after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
+}
+.b-tabs__contents > li dt {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  text-align: right;
+  font-family: 'dinpro-light', sans-serif;
+}
+.b-tabs__contents > li dt:after {
+  content: ":";
+}
+.b-tabs__contents > li dd {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding-left: 25px;
+  text-align: left;
+  font-weight: bold;
+}
+.b-tabs__contents > li._current {
+  display: block;
+}
+/* Вкладки (конец) */

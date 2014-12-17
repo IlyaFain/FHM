@@ -1,0 +1,85 @@
+@import "../default/mixins.less";
+
+
+
+/* Вкладки (начало) */
+
+
+
+
+.b-tabs {
+	width: 960px;
+	margin: auto;
+	background: #fff;
+
+}
+
+
+.b-tabs__buttons {
+	.clearfix();
+
+	& > li {
+		.box-sizing(border-box);
+		width: 160px;
+		height: 46px;
+		line-height: 46px;
+		float: left;
+		text-align: center;
+		color: #4e698b;
+		font-family: 'dinpro-black', sans-serif;
+		font-size: 17px;
+		border-left: 1px solid #d8d8d8;
+		border-bottom: 1px solid #d8d8d8;
+		cursor: pointer;
+		.transition(0.3s color);
+		&:first-child { border-left: 0 }
+		&._current { color: @red; border-bottom: 0 }
+		&:hover { color: @red }
+	}
+}
+
+.b-tabs__contents {
+	& > li {
+		display: none;
+		padding: 40px 0;
+		font-size: 18px;
+		line-height: 33px;
+		color: #525252;
+
+		dl {
+			.clearfix();
+		}
+
+		dt {
+			display: inline-block;
+			vertical-align: top;
+			width: 45%;
+			text-align: right;
+			font-family: 'dinpro-light', sans-serif;
+			&:after { content: ":"}
+		}
+
+		dd {
+			display: inline-block;
+			vertical-align: top;
+			width: 45%;
+			padding-left: 25px;
+			text-align: left;
+			font-weight: bold;
+		}
+
+		&._current { display: block; }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Вкладки (конец) */

@@ -47,7 +47,19 @@
 	<section class="b-section _top-line _no-padding-bottom">
 		<h2 class="b-section__title _bottom-bar">Проекты</h2>
 		<div class="b-section__description">Обеспечение газом российских потребителей и удаленных территорий представляет собой комплексную задачу, решение которой должно осуществляться высокопрофессиональными специализированными предприятиями. Автономная газификация, основанная на использовании сжиженного углеводородного газа (СУГ), может выступать в качестве основного обеспечения энергоносителями в регионах, где прокладка трубопроводов затруднена или требует серьезных материальных вложений, а также в качестве резервного, в тех местах, где возможны сезонные перебои с поставками магистрального газа. </div>
-		<div class="b-section__content"></div>
+		<div class="b-section__content">
+			
+			<div class="b-examples">
+				<a href="#"><img src="img/examples/1.jpg" alt=""></a>
+				<a href="#"><img src="img/examples/2.jpg" alt=""></a>
+				<a href="#"><img src="img/examples/3.jpg" alt=""></a>
+				<a href="#"><img src="img/examples/4.jpg" alt=""></a>
+				<a href="#"><img src="img/examples/5.jpg" alt=""></a>
+				<a href="#"><img src="img/examples/6.jpg" alt=""></a>
+				<a href="#"><img src="img/examples/7.jpg" alt=""></a>
+			</div>
+
+		</div>
 	</section>
 
 	<section class="b-section">

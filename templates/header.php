@@ -15,6 +15,8 @@
 	<title><?=PAGE_TITLE;?> | <?=SITE_TITLE;?></title>
 
 	<script src="js/libs/jquery-1.10.2.min.js"></script>
+	<script src="js/libs/underscore-1.7.0.min.js"></script>
+
 	<link href="css/default/reset.css" rel="stylesheet">
 	<link href="fonts/stylesheet.css" rel="stylesheet">
 	<link href="img/icon/font/styles.css" rel="stylesheet">

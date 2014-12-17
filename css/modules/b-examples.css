@@ -1,0 +1,23 @@
+/* Примеры (начало) */
+.b-examples {
+  max-width: 1367px;
+  margin: auto;
+  padding-top: 30px;
+  line-height: 0;
+}
+.b-examples:after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
+}
+.b-examples > a {
+  display: block;
+  float: left;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+.b-examples > a > img {
+  display: block;
+}
+/* Примеры (конец) */
