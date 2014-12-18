@@ -10,7 +10,7 @@
 
 
 
-	<div class="b-promo" style="background-image: url(img/content/promo_product-list.jpg)">
+	<div class="b-promo" style="background-image: url(img/content/promo_gasholders.jpg)">
 		<div class="b-promo__top-line"></div>
 		<h1 class="b-promo__title">Резервуары отопительные</h1>
 		<div class="b-promo__description">
