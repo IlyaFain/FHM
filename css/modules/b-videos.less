@@ -1,0 +1,91 @@
+@import "../default/mixins.less";
+
+
+
+/* Примеры (начало) */
+
+
+.b-videos {
+	max-width: 1200px;
+	margin: auto;
+	padding-top: 30px;
+	.clearfix();
+
+}
+
+.b-videos__list {
+	font-size: 0;
+	max-width: 1200p;
+}
+
+.b-videos__item {
+	display: block;
+	overflow: hidden;
+	//display: inline-block;
+	// margin-right: 10px;
+	margin-bottom: 10px;
+	//.box-sizing(border-box);
+	background-color: #4e698b;
+	.background-size(cover);
+	-webkit-background-blend-mode: luminosity;
+	   -moz-background-blend-mode: luminosity;
+	        background-blend-mode: luminosity;
+
+	&:hover {
+		-webkit-background-blend-mode: normal;
+		   -moz-background-blend-mode: normal;
+		        background-blend-mode: normal;
+	}
+
+	&._col7 { width: @min-width/12 * 7 }
+	&._col6 { width: @min-width/12 * 6 }
+	&._col5 { width: @min-width/12 * 5 }
+	&._col4 { width: @min-width/12 * 4 }
+	&._col3 { width: @min-width/12 * 3 }
+	&._col2 { width: @min-width/12 * 2 }
+}
+
+.b-videos__link {
+	display: block;
+	position: relative;
+
+	& > img {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		visibility: hidden;
+	}
+
+	&:hover {
+		.b-videos__item-text {
+			background: @red;
+		}
+	}
+}
+
+.b-videos__item-text {
+	//position: absolute;
+	display: block;
+	width: 100%;
+	padding: 10px 20px;
+	font-size: 18px;
+	text-align: left;
+	text-transform: uppercase;
+	background: #4e698b;
+	color: #fff;
+	.transition(0.5s bottom @cubic-in);
+	font-family: 'dinpro-light', sans-serif;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Примеры (конец) */

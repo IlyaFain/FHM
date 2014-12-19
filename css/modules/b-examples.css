@@ -3,7 +3,6 @@
   max-width: 1367px;
   margin: auto;
   padding-top: 30px;
-  line-height: 0;
 }
 .b-examples:after {
   clear: both;
@@ -11,13 +10,52 @@
   display: block;
   width: 100%;
 }
-.b-examples > a {
+.b-examples__item {
   display: block;
+  overflow: hidden;
   float: left;
   margin-right: 1px;
   margin-bottom: 1px;
 }
-.b-examples > a > img {
+.b-examples__link {
   display: block;
+  position: relative;
+}
+.b-examples__link > img {
+  display: block;
+}
+.b-examples__link:hover .b-examples__item-text {
+  bottom: 0;
+  -webkit-transition: 0.5s bottom cubic-bezier(0.215, 0.61, 0.355, 1);
+  -moz-transition: 0.5s bottom cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 0.5s bottom cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.b-examples__item-text {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  text-align: left;
+  background: #4e698b;
+  color: #fff;
+  -webkit-transition: 0.5s bottom cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -moz-transition: 0.5s bottom cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: 0.5s bottom cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.b-examples__item-title {
+  display: block;
+  margin-bottom: 4px;
+  padding: 0 15px;
+  font-family: 'dinpro';
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.b-examples__item-subtitle {
+  display: block;
+  padding: 0 15px;
+  font-family: 'dinpro-light', sans-serif;
+  font-style: normal;
 }
 /* Примеры (конец) */

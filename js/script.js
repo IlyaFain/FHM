@@ -8,8 +8,6 @@ $(function()
 	var $body = $('body');
 
 
-	/* независимые фрагменты кода - в раздельных самовызывающихся функциях. */
-
 
 	// описание
 	(function GoToTop()
@@ -29,6 +27,27 @@ $(function()
 		$('.b-promo__top-line, .b-promo__bottom-line').addClass('_loaded');
 	}, 300);
 
+
+
+
+	// описание
+	(function Videos()
+	{
+		var $videos = $('#videos');
+
+		imagesLoaded($videos[0], function()
+		{
+  			$videos.masonry({ columnWidth: 116, gutter: 0});
+		});
+
+		$videos.children().each(function(index, element)
+		{
+			var $this = $(element),
+				src= $this.find('img').attr("src");
+				console.log($this, src);
+			$this.css("background-image", "url(" + src + ")");
+		});
+	})();
 
 
 });

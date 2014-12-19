@@ -23,6 +23,10 @@
 	<link href="img/icon/font/styles.css" rel="stylesheet">
 
 	<link href="css/default/fxfullwidth.css" rel="stylesheet">
+	<script src="js/modules/slider.js"></script>
+
+	<script src="js/libs/masonry.pkgd.min.js"></script>
+	<script src="js/libs/imagesloaded.pkgd.min.js"></script>
 
 	<?
 		require_once("anticache.php");

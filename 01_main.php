@@ -6,8 +6,6 @@
 
 <div class="b-content page-main">
 
-	<script src="js/modules/slider.js"></script>
-
 	<div id="slider" class="b-slider fx-slider fxPushReveal">
 
 		<div class="b-slider__text">
@@ -98,13 +96,71 @@
 		<div class="b-section__content">
 			
 			<div class="b-examples">
-				<a href="#"><img src="img/examples/1.jpg" alt=""></a>
-				<a href="#"><img src="img/examples/2.jpg" alt=""></a>
-				<a href="#"><img src="img/examples/3.jpg" alt=""></a>
-				<a href="#"><img src="img/examples/4.jpg" alt=""></a>
-				<a href="#"><img src="img/examples/5.jpg" alt=""></a>
-				<a href="#"><img src="img/examples/6.jpg" alt=""></a>
-				<a href="#"><img src="img/examples/7.jpg" alt=""></a>
+				<ul class="b-examples__list">
+					<li class="b-examples__item">
+						<a class="b-examples__link" href="img/examples/1.jpg">
+							<img src="img/examples/1.jpg" alt="">
+							<span class="b-examples__item-text">
+								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
+								<i class="b-examples__item-subtitle">Поставка оборудования, монтаж, пуско-наладочные работы</i>
+							</span>
+						</a>
+					</li>
+					<li class="b-examples__item">
+						<a class="b-examples__link" href="img/examples/2.jpg">
+							<img src="img/examples/2.jpg" alt="">
+							<span class="b-examples__item-text">
+								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома автономного газоснабжения частного дома</b>
+								<i class="b-examples__item-subtitle">Поставка оборудования, монтаж, пуско-наладочные работы</i>
+							</span>
+						</a>
+					</li>
+					<li class="b-examples__item">
+						<a class="b-examples__link" href="img/examples/3.jpg">
+							<img src="img/examples/3.jpg" alt="">
+							<span class="b-examples__item-text">
+								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
+								<i class="b-examples__item-subtitle">Поставка оборудования, монтаж, пуско-наладочные работы</i>
+							</span>
+						</a>
+					</li>
+					<li class="b-examples__item">
+						<a class="b-examples__link" href="img/examples/4.jpg">
+							<img src="img/examples/4.jpg" alt="">
+							<span class="b-examples__item-text">
+								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
+								<i class="b-examples__item-subtitle">Поставка оборудования, монтаж, пуско-наладочные работы</i>
+							</span>
+						</a>
+					</li>
+					<li class="b-examples__item">
+						<a class="b-examples__link" href="img/examples/5.jpg">
+							<img src="img/examples/5.jpg" alt="">
+							<span class="b-examples__item-text">
+								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
+								<i class="b-examples__item-subtitle">Поставка оборудования, монтаж, пуско-наладочные работы</i>
+							</span>
+						</a>
+					</li>
+					<li class="b-examples__item">
+						<a class="b-examples__link" href="img/examples/6.jpg">
+							<img src="img/examples/6.jpg" alt="">
+							<span class="b-examples__item-text">
+								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
+								<i class="b-examples__item-subtitle">Поставка оборудования, монтаж, пуско-наладочные работы</i>
+							</span>
+						</a>
+					</li>
+					<li class="b-examples__item">
+						<a class="b-examples__link" href="img/examples/7.jpg">
+							<img src="img/examples/7.jpg" alt="">
+							<span class="b-examples__item-text">
+								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
+								<i class="b-examples__item-subtitle">Поставка оборудования, монтаж, пуско-наладочные работы</i>
+							</span>
+						</a>
+					</li>
+				</ul>
 			</div>
 
 		</div>
@@ -113,7 +169,22 @@
 	<section class="b-section">
 		<h2 class="b-section__title _bottom-bar">Видеорепортажи о нашей работе</h2>
 		<div class="b-section__description">Особое внимание заслуживают постоянные съёмки процесса работы, видеозаписи с которых используются в обучающих курсах для специалистов самого широкого профиля. </div>
-		<div class="b-section__content"></div>
+		<div class="b-section__content">
+			
+
+			<div class="b-videos">
+				<ul id="videos" class="b-videos__list">
+					<li class="b-videos__item _col5"> <a class="b-videos__link" href="img/videos/1.jpg"> <img src="img/videos/1.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
+					<li class="b-videos__item _col5"> <a class="b-videos__link" href="img/videos/6.jpg"> <img src="img/videos/6.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
+					<li class="b-videos__item _col3"> <a class="b-videos__link" href="img/videos/2.jpg"> <img src="img/videos/2.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
+					<li class="b-videos__item _col5"> <a class="b-videos__link" href="img/videos/5.jpg"> <img src="img/videos/5.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
+					<li class="b-videos__item _col2"> <a class="b-videos__link" href="img/videos/3.jpg"> <img src="img/videos/3.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
+					<li class="b-videos__item _col2"> <a class="b-videos__link" href="img/videos/4.jpg"> <img src="img/videos/4.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
+				</ul>
+			</div>
+
+
+		</div>
 	</section>
 
 	<section class="b-section _top-line">
