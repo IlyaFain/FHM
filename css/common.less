@@ -87,7 +87,13 @@ a {
 	max-width: @content-width;
 	margin: auto;
 	padding-top: 30px;
-	a { margin-left: 45px; &:first-child { margin-left: 0 } }
+	a {
+		margin-left: 45px;
+		& > img { .transform(scale(1)); .transition(all 0.3s); }
+		&:hover > img { .transform(scale(1.1)); }
+
+		&:first-child { margin-left: 0 }
+	}
 }
 
 
