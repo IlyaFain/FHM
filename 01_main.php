@@ -6,10 +6,58 @@
 
 <div class="b-content page-main">
 
+	<script src="js/modules/slider.js"></script>
 
-	<div class="b-promo">
-		
+	<div id="slider" class="b-slider fx-slider fxPushReveal">
 
+		<div class="b-slider__text">
+			<div class="b-slider__title">ФАСХИММАШ</div>
+			<div class="b-slider__subtitle">Профессионально сохраняем и&nbsp;распределяем энергию</div>
+			<div class="b-slider__how"><a id="slider_video_open" class="b-slider__how-button" href="#">Как мы это делаем</a></div>
+		</div>
+
+		<div class="b-slider-pics">
+			<ul id="slider_pics" class="b-slider-pics__list fx-slider-items">
+				<li class="b-slider-pics__item fx-slider-item _current" style="background-image: url(img/content/slider/big-1.jpg)"> </li>
+				<li class="b-slider-pics__item fx-slider-item" style="background-image: url(img/content/slider/big-2.jpg)"> </li>
+				<li class="b-slider-pics__item fx-slider-item" style="background-image: url(img/content/slider/big-3.jpg)"> </li>
+				<li class="b-slider-pics__item fx-slider-item" style="background-image: url(img/content/slider/big-4.jpg)"> </li>
+			</ul>
+		</div>
+
+		<div class="b-slider-previews">
+			<ul id="slider_previews" class="b-slider-previews__list fx-slider-triggers">
+				<li class="b-slider-previews__item _current">
+					<span class="b-slider-previews__link" href="img/content/slider/big-1.jpg">
+						<img src="img/content/slider/small-1.jpg" alt="">
+					</span>
+				</li>
+				<li class="b-slider-previews__item">
+					<span class="b-slider-previews__link" href="img/content/slider/big-2.jpg">
+						<img src="img/content/slider/small-2.jpg" alt="">
+					</span>
+				</li>
+				<li class="b-slider-previews__item">
+					<span class="b-slider-previews__link" href="img/content/slider/big-3.jpg">
+						<img src="img/content/slider/small-3.jpg" alt="">
+					</span>
+				</li>
+				<li class="b-slider-previews__item">
+					<span class="b-slider-previews__link" href="img/content/slider/big-4.jpg">
+						<img src="img/content/slider/small-4.jpg" alt="">
+					</span>
+				</li>
+			</ul>
+		</div>
+
+		<div class="b-slider__redline"></div>
+
+		<script type="text/template" id="template_slider_video">
+			<iframe width="774" height="580" src="//www.youtube.com/embed/IKKJeNZleMY?enablejsapi=1&autoplay=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</script>
+		<div id="slider_video" class="b-slider__video">
+			<a id="slider_video_close" class="b-slider__video-close" href="#"></a>
+		</div>
 	</div>
 
 

@@ -235,6 +235,9 @@ a:active {
 .b-nav__item:hover {
   background-position: 0 6px;
 }
+.b-nav__item:hover .b-nav__link {
+  color: #db0303;
+}
 .b-nav__item._current {
   color: #1a1a18;
   font-weight: bold;
@@ -757,6 +760,200 @@ a.b-footer__button:hover {
   display: block;
 }
 /* Примеры (конец) */
+.b-slider {
+  width: 100%;
+  height: 580px;
+  background: #545a67;
+  text-align: center;
+  color: #fff;
+}
+.b-slider__text {
+  position: relative;
+  top: 0;
+  z-index: 10;
+  max-width: 600px;
+  margin: auto;
+  -webkit-transition: 1s top cubic-bezier(0.215, 0.61, 0.355, 1);
+  -moz-transition: 1s top cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 1s top cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+._open .b-slider__text {
+  top: -100%;
+}
+.b-slider__title {
+  font-family: 'dinpro-black', sans-serif;
+  font-size: 80px;
+  margin-top: 80px;
+}
+.b-slider__subtitle {
+  font-family: 'dinpro-light', sans-serif;
+  font-size: 34px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+a.b-slider__how-button {
+  display: inline-block;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 19px;
+  border: 1px solid #fff;
+  font-family: 'dinpro', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+a.b-slider__how-button:after {
+  content: "";
+  display: inline-block;
+  vertical-align: baseline;
+  width: 8px;
+  height: 8px;
+  margin-left: 8px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.b-slider__redline {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 215px;
+  margin-left: -107.5px;
+  background: url(../img/bg/b-slider__redline.png);
+}
+.csstransforms.cssgradients .b-slider__redline {
+  background: none;
+  background: #a20000;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4f0000), color-stop(1, #f40000));
+  background: -webkit-linear-gradient(top, #f40000 0%, #4f0000 100%);
+  background: -ms-linear-gradient(bottom, #4f0000, #f40000);
+  background: -moz-linear-gradient(center bottom, #4f0000 0%, #f40000 100%);
+  background: -o-linear-gradient(center bottom, #4f0000 0%, #f40000 100%);
+  background: linear-gradient(to bottom, #f40000 0%, #4f0000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f40000', endColorstr='#4f0000', GradientType=0);
+  -webkit-transform: skewX(-33deg);
+  -moz-transform: skewX(-33deg);
+  -ms-transform: skewX(-33deg);
+  transform: skewX(-33deg);
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transition: 1s all cubic-bezier(0.215, 0.61, 0.355, 1);
+  -moz-transition: 1s all cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 1s all cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.csstransforms.cssgradients ._open .b-slider__redline {
+  -webkit-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  transform: skewX(0deg);
+  width: 100%;
+  left: 0;
+  margin-left: 0;
+}
+.b-slider__video {
+  display: none;
+  position: absolute;
+  left: 0%;
+  top: 0;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+  background: url(../img/icon/progressbar.gif) center center no-repeat;
+  text-align: center;
+}
+.b-slider__video iframe {
+  margin: auto;
+}
+._open .b-slider__video {
+  display: block;
+}
+a.b-slider__video-close {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 30px;
+  top: 30px;
+  font-size: 32px;
+  text-decoration: none !important;
+}
+a.b-slider__video-close:before {
+  content: "✖";
+  color: #000;
+  font-family: sans-serif !important;
+  vertical-align: middle;
+}
+.b-slider-previews {
+  position: absolute;
+  z-index: 10000;
+  left: 0;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: 1s bottom;
+  -moz-transition: 1s bottom;
+  transition: 1s bottom;
+}
+._open .b-slider-previews {
+  bottom: -110px;
+}
+.b-slider-previews__list {
+  display: inline-block;
+  padding: 10px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  white-space: nowrap;
+  font-size: 0;
+}
+.b-slider-previews__list > * {
+  white-space: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+.b-slider-previews__item {
+  position: relative;
+  margin-left: 19px;
+}
+.b-slider-previews__item:first-child {
+  margin-left: 0;
+}
+.b-slider-previews__item:active {
+  top: 1px;
+}
+.b-slider-previews__item:before,
+.b-slider-previews__item:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: #fff;
+  -webkit-transition: 0.3s height;
+  -moz-transition: 0.3s height;
+  transition: 0.3s height;
+}
+.b-slider-previews__item:before {
+  top: 0;
+}
+.b-slider-previews__item:after {
+  bottom: 0;
+}
+.b-slider-previews__item._current:before,
+.b-slider-previews__item:hover:before,
+.b-slider-previews__item._current:after,
+.b-slider-previews__item:hover:after {
+  height: 4px;
+}
+.b-slider-previews__link {
+  display: block;
+}
+/* Эффектный слайдер (конец) */
 /*--------------------- Стили структурных блоков (конец) --------------------
 */
 /*

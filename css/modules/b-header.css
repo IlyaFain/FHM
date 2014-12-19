@@ -84,6 +84,9 @@
 .b-nav__item:hover {
   background-position: 0 6px;
 }
+.b-nav__item:hover .b-nav__link {
+  color: #db0303;
+}
 .b-nav__item._current {
   color: #1a1a18;
   font-weight: bold;
