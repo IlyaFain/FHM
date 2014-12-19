@@ -1711,6 +1711,13 @@ a.b-slider__video-close:before {
   font-family: 'dinpro-black', sans-serif;
   margin-bottom: 35px;
 }
+.page-gasholders .b-g__spec._invert {
+  padding-top: 0;
+  background: #fff;
+}
+.page-gasholders .b-g__spec._invert .b-tabs {
+  background: #eceaea;
+}
 /* Страница продукции (конец) */
 /* Главная страница (начало) */
 .page-404 {
