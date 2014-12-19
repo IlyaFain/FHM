@@ -51,6 +51,34 @@
 		background: url(../img/bg/b-g__pic-weighter.png) center bottom no-repeat;
 	}
 
+	.b-g__pic-weight {
+		position: absolute;
+		z-index: 2;
+		left: 50%;
+		bottom: 60px;
+		width: 122px;
+		height: 59px;
+		line-height: 55px;
+		margin-left: -122px/2;
+		font-size: 19px;
+		font-weight: bold;
+		background: url(../img/bg/b-g__pic-weight.png) left top no-repeat;
+
+		i { font-style: normal }
+	}
+
+	.b-g__pic-weight-arrow {
+		position: absolute;
+		left: 16px;
+		bottom: 12px;
+		width: 2px;
+		height: 10px;
+		background: @red;
+		.transition(0.3s left 0.4s @cubic-in);
+
+		&._center { left: 59px; .transition(0.8s left @back-out); }
+	}
+
 	.b-g__pic-holder {
 		position: absolute;
 		z-index: 2;

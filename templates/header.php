@@ -30,7 +30,8 @@
 
 	<script src="js/libs/litebox.min.edit.js"></script>
 	<link href="css/default/litebox.edit.css" rel="stylesheet">
-	
+
+	<script src="js/libs/jquery.countimator.js"></script>
 
 	<?
 		require_once("anticache.php");

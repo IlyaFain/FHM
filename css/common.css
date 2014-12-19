@@ -1545,6 +1545,39 @@ a.b-slider__video-close:before {
   height: 100%;
   background: url(../img/bg/b-g__pic-weighter.png) center bottom no-repeat;
 }
+.page-gasholders .b-g__pic-weight {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: 60px;
+  width: 122px;
+  height: 59px;
+  line-height: 55px;
+  margin-left: -61px;
+  font-size: 19px;
+  font-weight: bold;
+  background: url(../img/bg/b-g__pic-weight.png) left top no-repeat;
+}
+.page-gasholders .b-g__pic-weight i {
+  font-style: normal;
+}
+.page-gasholders .b-g__pic-weight-arrow {
+  position: absolute;
+  left: 16px;
+  bottom: 12px;
+  width: 2px;
+  height: 10px;
+  background: #db0303;
+  -webkit-transition: 0.3s left 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -moz-transition: 0.3s left 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: 0.3s left 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.page-gasholders .b-g__pic-weight-arrow._center {
+  left: 59px;
+  -webkit-transition: 0.8s left cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: 0.8s left cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: 0.8s left cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 .page-gasholders .b-g__pic-holder {
   position: absolute;
   z-index: 2;

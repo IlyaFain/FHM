@@ -10,10 +10,13 @@ $(function()
 		$contents = $('.b-tabs__contents'),
 		$holder = $('.b-g__pic-holder'),
 		$dimensions = $('.b-g__pic-dimensions'),
+		$arrow = $('.b-g__pic-weight-arrow'),
+		$counter = $('#counter'),
 		template_button = _.template($('#template_tab-button').html()),
 		template_content = _.template($('#template_tab-content').html()),
 		typePrefix = "", // "agzs", "rez"
-		groundPrefix = ""; // "no", "po"
+		groundPrefix = "", // "no", "po"
+		gasholdersData = {};
 
 	/* независимые фрагменты кода - в раздельных самовызывающихся функциях. */
 
@@ -80,17 +83,21 @@ $(function()
 
 	function drawGasholders(gasholders)
 	{
+		gasholdersData = gasholders;
+
 		$buttons.html("");
 		$contents.html("");
 
-		for (var type in gasholders)
+		for (var type in gasholdersData)
 		{
 			$buttons.append(template_button({ type: type, id: type.substr(4,100).slice(0,-3) }));
-			$contents.append(template_content({ spec: gasholders[type] }));
+			$contents.append(template_content({ spec: gasholdersData[type] }));
 		}
 
+		// начальное отображение
 		showTab(0);
 		showImage("4.6");
+		showWeight("4.6");
 	}
 
 
@@ -106,6 +113,7 @@ $(function()
 			var $this = $(this);
 			showTab($this.index());
 			showImage($this.attr("data-id"));
+			showWeight($this.attr("data-id"));
 		})
 	})();
 
@@ -149,6 +157,32 @@ $(function()
 		}, 800);
 	}
 
+
+
+
+
+	function showWeight(id)
+	{
+		$arrow.removeClass('_center');
+		
+		setTimeout(function()
+		{
+			$counter.find('i').remove();
+			$counter.html('<i>0</i>');
+		}, 500);
+
+		var weightText = gasholdersData["FAS-" + id + (groundPrefix == "po" ? "-ПО" : "-НО")]["Вес"],
+			weightValue = parseInt(weightText, 10);
+
+		setTimeout(function()
+		{
+			$arrow.addClass('_center');
+			$counter
+				.find('i')
+				.html(weightValue)
+				.countimator({duration:800, max:weightValue});
+		}, 800);
+	}
 
 
 

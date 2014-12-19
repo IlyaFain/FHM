@@ -43,8 +43,12 @@
 			<div class="b-g__pic">
 				<div class="b-g__pic-holder"><img src="" alt=""></div>
 				<div class="b-g__pic-weighter"></div>
+				<div class="b-g__pic-weight">
+					<span id="counter"><i></i></span> кг
+					<i class="b-g__pic-weight-arrow"></i>
+				</div>
 				<div class="b-g__pic-dimensions"><img src="" alt=""></div>
-			</div>
+			</div> 
 
 
 			<div class="b-g__spec">
