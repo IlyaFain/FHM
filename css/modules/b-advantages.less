@@ -1,0 +1,65 @@
+@import "../default/mixins.less";
+
+
+
+/* Преимущества (начало) */
+
+
+
+.b-advantages {
+	max-width: @content-width;
+	margin: auto;
+	font-size: 18px;
+}
+
+.b-advantages__list {
+	padding: 30px 0 50px;
+	.inline-block-justify();
+}
+
+.b-advantages__item {
+	width: 19%;
+	text-align: center;
+
+
+	@size: 90px;
+	&:before {
+		content: "";
+		display: block;
+		margin: auto;
+		width: @size;
+		height: @size;
+		background-image: url(../img/icon/b-advantages__item.png);
+		background-repeat: no-repeat;
+	}
+
+	&._montage:before { .sprite(0,0,@size,@size) }
+	&._review:before  { .sprite(1,0,@size,@size) }
+	&._defence:before { .sprite(2,0,@size,@size) }
+	&._expense:before { .sprite(3,0,@size,@size) }
+	&._cold:before    { .sprite(4,0,@size,@size) }
+	&._system:before  { width:100px; background-image:url(../img/icon/b-advantages__item_system.png); }
+}
+
+.b-advantages__text {
+	padding: 0 50px;
+	color: #525253;
+    font-family: "dinpro-light",sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Преимущества (конец) */

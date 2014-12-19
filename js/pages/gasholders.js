@@ -144,8 +144,8 @@ $(function()
 
 		setTimeout(function()
 		{
-			$holder.css("background-image", "url(img/gasholders/rez_" + groundPrefix + "/" + id + ".png)").addClass('_loaded');
-			$dimensions.css("background-image", "url(img/gasholders/rez_" + groundPrefix + "/" + id + "size.png)").addClass('_loaded');
+			$holder.css("background-image", "url(img/gasholders/" + typePrefix + "_" + groundPrefix + "/" + id + ".png)").addClass('_loaded');
+			$dimensions.css("background-image", "url(img/gasholders/" + typePrefix + "_" + groundPrefix + "/" + id + "size.png)").addClass('_loaded');
 		}, 800);
 	}
 

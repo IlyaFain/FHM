@@ -1,18 +1,18 @@
 <?
-	define('PAGE_TITLE', 'Продукция');
+	define('PAGE_TITLE', 'Резервуары АГЗС - Продукция');
 ?>
 
 <? require_once('templates/header.php'); ?>
 
 
-<div class="page-gasholders" data-type-prefix="rez">
+<div class="page-gasholders" data-type-prefix="agzs">
 
 
 
 
 	<div class="b-promo" style="background-image: url(img/content/promo_gasholders.jpg)">
 		<div class="b-promo__top-line"></div>
-		<h1 class="b-promo__title">Резервуары отопительные</h1>
+		<h1 class="b-promo__title">Резервуары для АГЗС</h1>
 		<div class="b-promo__description">
 			ООО «Фасхиммаш» является единственным полномочным неделимым и независимым дилером немецкой компании FAS.
 			<br><br>
@@ -28,7 +28,7 @@
 
 	<section id="ground_bg" class="b-section _no-padding-bottom b-g__ground-bg">
 
-		<h2 class="b-section__title">Мы производим резервуары двух исполнений:</h2>
+		<h2 class="b-section__title">Мы производим резервуары для АГЗС двух исполнений:</h2>
 
 		<div class="b-g__ground-switch">
 			<a data-ground-prefix="no" class="h2 b-g__ground-switch-item _current" href="#">наземные</a>
@@ -104,8 +104,8 @@
 					<li class="b-advantages__item _defence">
 						<span>Нет&nbsp;необходимости в&nbsp;установке протекторной защиты </span>
 					</li>
-					<li class="b-advantages__item _expense">
-						<span>Отсутствие расходов в&nbsp;процессе эксплуатации</span>
+					<li class="b-advantages__item _system">
+						<span>Возможность применения в&nbsp;составе любой технологической системы</span>
 					</li>
 					<li class="b-advantages__item _cold">
 						<span>Возможность применения в&nbsp;климатических зонах с&nbsp;низкой температурой</span>
@@ -156,9 +156,9 @@
 		<div class="b-section__content">
 
 			<div class="b-cert">
-				<a href="#"><img src="img/certificates/1.jpg" alt=""></a>
-				<a href="#"><img src="img/certificates/2.jpg" alt=""></a>
-				<a href="#"><img src="img/certificates/3.jpg" alt=""></a>
+				<a data-litebox href="img/certificates/big-1.jpg"><img src="img/certificates/small-1.jpg" alt=""></a>
+				<a data-litebox href="img/certificates/big-2.jpg"><img src="img/certificates/small-2.jpg" alt=""></a>
+				<a data-litebox href="img/certificates/big-3.jpg"><img src="img/certificates/small-3.jpg" alt=""></a>
 			</div>
 
 		</div>

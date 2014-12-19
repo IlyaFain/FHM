@@ -98,7 +98,7 @@
 			<div class="b-examples">
 				<ul class="b-examples__list">
 					<li class="b-examples__item">
-						<a class="b-examples__link" href="img/examples/1.jpg">
+						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/1.jpg">
 							<img src="img/examples/1.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -107,7 +107,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a class="b-examples__link" href="img/examples/2.jpg">
+						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/2.jpg">
 							<img src="img/examples/2.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома автономного газоснабжения частного дома</b>
@@ -116,7 +116,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a class="b-examples__link" href="img/examples/3.jpg">
+						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/3.jpg">
 							<img src="img/examples/3.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -125,7 +125,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a class="b-examples__link" href="img/examples/4.jpg">
+						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/4.jpg">
 							<img src="img/examples/4.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -134,7 +134,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a class="b-examples__link" href="img/examples/5.jpg">
+						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/5.jpg">
 							<img src="img/examples/5.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -143,7 +143,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a class="b-examples__link" href="img/examples/6.jpg">
+						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/6.jpg">
 							<img src="img/examples/6.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -152,7 +152,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a class="b-examples__link" href="img/examples/7.jpg">
+						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/7.jpg">
 							<img src="img/examples/7.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -174,12 +174,36 @@
 
 			<div class="b-videos">
 				<ul id="videos" class="b-videos__list">
-					<li class="b-videos__item _col5"> <a class="b-videos__link" href="img/videos/1.jpg"> <img src="img/videos/1.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
-					<li class="b-videos__item _col5"> <a class="b-videos__link" href="img/videos/6.jpg"> <img src="img/videos/6.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
-					<li class="b-videos__item _col3"> <a class="b-videos__link" href="img/videos/2.jpg"> <img src="img/videos/2.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
-					<li class="b-videos__item _col5"> <a class="b-videos__link" href="img/videos/5.jpg"> <img src="img/videos/5.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
-					<li class="b-videos__item _col2"> <a class="b-videos__link" href="img/videos/3.jpg"> <img src="img/videos/3.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
-					<li class="b-videos__item _col2"> <a class="b-videos__link" href="img/videos/4.jpg"> <img src="img/videos/4.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span> </a> </li>
+					<li class="b-videos__item _col5">
+						<a data-litebox data-litebox-group="videos" class="b-videos__link" href="http://www.youtube.com/watch?v=dBoA9rBkgx0" title="Видеорепортаж">
+							<img src="img/videos/1.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span>
+						</a>
+					</li>
+					<li class="b-videos__item _col5">
+						<a data-litebox data-litebox-group="videos" class="b-videos__link" href="http://www.youtube.com/watch?v=dBoA9rBkgx0" title="Видеорепортаж">
+							<img src="img/videos/6.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span>
+						</a>
+					</li>
+					<li class="b-videos__item _col3">
+						<a data-litebox data-litebox-group="videos" class="b-videos__link" href="http://www.youtube.com/watch?v=dBoA9rBkgx0" title="Видеорепортаж">
+							<img src="img/videos/2.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span>
+						</a>
+					</li>
+					<li class="b-videos__item _col5">
+						<a data-litebox data-litebox-group="videos" class="b-videos__link" href="http://www.youtube.com/watch?v=dBoA9rBkgx0" title="Видеорепортаж">
+							<img src="img/videos/5.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span>
+						</a>
+					</li>
+					<li class="b-videos__item _col2">
+						<a data-litebox data-litebox-group="videos" class="b-videos__link" href="http://www.youtube.com/watch?v=dBoA9rBkgx0" title="Видеорепортаж">
+							<img src="img/videos/3.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span>
+						</a>
+					</li>
+					<li class="b-videos__item _col2">
+						<a data-litebox data-litebox-group="videos" class="b-videos__link" href="http://www.youtube.com/watch?v=dBoA9rBkgx0">
+							<img src="img/videos/4.jpg" alt=""> <span class="b-videos__item-text">Видеорепортаж</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 
@@ -271,7 +295,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="b-map"></div>
+			<div class="b-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2220.241530951969!2d44.1559945!3d56.18750310000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414fd61d3b3c4763%3A0x3de2dcf5e50d4d53!2z0YPQuy4g0JvQvtC80L7QvdC-0YHQvtCy0LAsIDM4LCDQmtGB0YLQvtCy0L4sINCd0LjQttC10LPQvtGA0L7QtNGB0LrQsNGPINC-0LHQuy4sIDYwNzY1NQ!5e0!3m2!1sru!2sru!4v1418972277793" width="100%" height="550" frameborder="0" style="border:0"></iframe>
+			</div>
 		</div>
 	</section>
 

@@ -59,6 +59,7 @@
 .page-contacts .contacts__map {
   width: 791px;
   height: 418px;
+  background: url(../img/pages/contacts/map.jpg);
 }
 .page-contacts .contacts__people {
   margin-top: 64px;

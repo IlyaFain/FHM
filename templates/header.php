@@ -28,6 +28,10 @@
 	<script src="js/libs/masonry.pkgd.min.js"></script>
 	<script src="js/libs/imagesloaded.pkgd.min.js"></script>
 
+	<script src="js/libs/litebox.min.edit.js"></script>
+	<link href="css/default/litebox.edit.css" rel="stylesheet">
+	
+
 	<?
 		require_once("anticache.php");
 		antiCache('css/common.css');

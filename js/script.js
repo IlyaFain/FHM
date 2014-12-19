@@ -34,6 +34,7 @@ $(function()
 	(function Videos()
 	{
 		var $videos = $('#videos');
+		if (!$videos.length) return;
 
 		imagesLoaded($videos[0], function()
 		{
