@@ -33,6 +33,10 @@
 
 	<script src="js/libs/jquery.countimator.js"></script>
 
+	<script src="js/libs/waypoints.min.js"></script>
+
+	
+
 	<?
 		require_once("anticache.php");
 		antiCache('css/common.css');

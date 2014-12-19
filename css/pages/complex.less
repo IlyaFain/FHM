@@ -20,6 +20,13 @@
 	.stages__item{
 		margin-top:20px;
 		counter-increment: сstage 1;
+		.opacity(1);
+		.transition(0.7s all);
+
+		&._faded {
+			.opacity(0);
+			.transform(e("scale(1.2) translateY(100px)"));
+		}
 	}
 	.stages__item:before{
 		content: e("counter(сstage)");
@@ -56,6 +63,8 @@
 	.stages__item__slides{
 		text-align: center;
 		font-size: 0px;
+		.transition(0.7s all 0.4s);
+		.transform(translateY(0px));
 	}
 	.stages__item__slides .item{
 		display: inline;

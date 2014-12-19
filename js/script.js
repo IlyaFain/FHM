@@ -9,7 +9,8 @@ $(function()
 
 
 
-	// описание
+
+	// Ссылка "наверх"
 	(function GoToTop()
 	{
 		$('#goto_top').click(function(event)
@@ -22,15 +23,9 @@ $(function()
 
 
 
-	setTimeout(function()
-	{
-		$('.b-promo__top-line, .b-promo__bottom-line').addClass('_loaded');
-	}, 300);
 
 
-
-
-	// описание
+	// Расположение видео
 	(function Videos()
 	{
 		var $videos = $('#videos');
@@ -49,6 +44,29 @@ $(function()
 			$this.css("background-image", "url(" + src + ")");
 		});
 	})();
+
+
+
+
+
+
+
+	// Эффекты на установке комплексов
+	(function Videos()
+	{
+		$('.stages__item').addClass('_faded');
+
+		$('.stages__item').waypoint(function() {
+	  		$(this).removeClass('_faded');
+		}, { offset: $window.height() - 150 });
+
+	})();
+
+
+
+
+
+
 
 
 });
