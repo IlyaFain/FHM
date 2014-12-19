@@ -12,18 +12,18 @@
 			<div class="content__head">
 				<div class="h1 h1--opening"><i></i>Топливораздаточные колонки FAS
 					<div class="inside-menu">
-					<!-- <div class="h1 h1--opening"><i></i>Топливораздаточные колонки FAS</div>
+					<div class="h1 h1--opening"><i></i>Топливораздаточные колонки FAS</div>
 						<ul class="inside-menu__ul">
-							<li class="inside-menu__item"><a>Жидкостные испарители FAS 3000</a></li>
-							<li class="inside-menu__item"><a>Самовсасывающие установки</a></li>
-							<li class="inside-menu__item active"><span>Испарители с электроаодогревом FAS 2000</span></li>
-							<li class="inside-menu__item"><a>Смесительные и комбинированные установки FAS 4000</a></li>
-							<li class="inside-menu__item"><a>Блочные технологические комплексы тип FAS</a></li>
-							<li class="inside-menu__item"><a>Системы обвязок</a></li>
-							<li class="inside-menu__item"><a>Контрольно-распределительные пункты</a></li>
-							<li class="inside-menu__item"><a>Регуляторные группы</a></li>
-							<li class="inside-menu__item"><a>Защита резервуаров от коррозии</a></li>
-						</ul>	 -->
+							<li class="inside-menu__item"><a href="#">Жидкостные испарители FAS 3000</a></li>
+							<li class="inside-menu__item"><a href="#">Самовсасывающие установки</a></li>
+							<li class="inside-menu__item _current"><span>Испарители с электроподогревом FAS 2000</span></li>
+							<li class="inside-menu__item"><a href="#">Смесительные и комбинированные установки FAS 4000</a></li>
+							<li class="inside-menu__item"><a href="#">Блочные технологические комплексы тип FAS</a></li>
+							<li class="inside-menu__item"><a href="#">Системы обвязок</a></li>
+							<li class="inside-menu__item"><a href="#">Контрольно-распределительные пункты</a></li>
+							<li class="inside-menu__item"><a href="#">Регуляторные группы</a></li>
+							<li class="inside-menu__item"><a href="#">Защита резервуаров от коррозии</a></li>
+						</ul>	
 					</div>
 				</div>
 			</div>

@@ -68,5 +68,37 @@ $(function()
 
 
 
+	// Эффекты на установке комплексов
+	(function GearMenu()
+	{
+		if (!$('.page-gear').length) return;
+
+		var $menu = $('.inside-menu');
+
+		$('.h1--opening').click(function(event)
+		{
+			event.preventDefault();
+			event.stopPropagation();
+
+			$menu.toggleClass('_open');
+		});
+
+		$body.click(function()
+		{
+			if ($menu.hasClass('_open')) $menu.removeClass('_open');
+		});
+
+		$menu.click(function(event)
+		{
+			event.stopPropagation();
+		})
+
+	})();
+
+
+
+
+
+
 
 });
