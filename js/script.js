@@ -68,7 +68,7 @@ $(function()
 
 
 
-	// Эффекты на установке комплексов
+	// Выпадающее меню на "оборудовании"
 	(function GearMenu()
 	{
 		if (!$('.page-gear').length) return;
@@ -94,6 +94,21 @@ $(function()
 		})
 
 	})();
+
+
+
+
+
+
+	// Приезжающие полоски
+	(function Stripes()
+	{
+		setTimeout(function()
+		{
+			$('.b-promo__top-line, .b-promo__bottom-line').addClass('_loaded');
+		}, 300);
+	})();
+
 
 
 
