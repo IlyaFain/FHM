@@ -3,22 +3,6 @@
 <div id="modals_container" class="b-modals md-overlay" style="display:none">
 
 
-	<section id="modal_subscribe" class="b-modal b-subscribe-rules md-modal md-effect-2">
-
-		<a data-modal-hide="#modal_subscribe" class="b-modal__close md-close" href="#" title="Закрыть"></a>
-
-		<div class="b-modal__title">Правила подписки</div>
-		
-		<div class="b-subscribe-rules__text">
-			<p>1. Контент Сайта доступен Пользователям Сайта вне зависимости от их регистрации на Сайте. Однако, для того, чтобы активно пользоваться возможностями Сайта (например, получать информацию о специальных предложениях, акциях, мероприятиях, распродажах Компании, о специальных предложениях и новостях программы MEGACARD, о новостях и мероприятиях проекта Модные Недели в ТЦ «Мега», о новых выпусках журнала МЕГА Style, о мероприятиях Детского Клуба МЕГА и т.д.), необходимо подписаться на новости Компании.</p>
-			<p>2. Подписка на новости осуществляется Пользователями добровольно, плата подписку не взимается. Подписаться на новости может физическое лицо, проживающее на территории Российской Федерации и достигшее 18 лет.</p>
-			<p>3. При подписке на новости Пользователь должен указать необходимую достоверную и актуальную информацию, включая уникальный для каждого Пользователя Сайта адрес электронной почты , а также фамилию, имя, дату рождения, пол, семейное положение, информацию о месте проживания (область, населенный пункт или город, улица, номер дома). При подписке на новости или внесении изменений в указанные при подписке данные, по своему усмотрению, может указать дополнительную информацию о себе, в частности, отчество, дополнительную информацию о месте проживания (почтовый индекс, район, номер корпуса, номер квартиры), номер мобильного телефона, количество детей в семье, пол детей, их имена и даты их рождения. Пользователь Сайта несет ответственность за достоверность, актуальность, полноту и соответствие законодательству Российской Федерации информации предоставленной при подписке на новости.</p>
-		</div>
-
-		<button data-modal-hide="#modal_subscribe" class="b-modal__action btn">Закрыть</button>
-
-	</section>
-
 
 
 
@@ -48,6 +32,70 @@
 				</li>
 			</ul>
 		</form>
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<section id="modal_photo" class="b-modal b-fotorama md-modal md-effect-2">
+
+		<a data-modal-hide="#modal_photo" class="b-modal__close md-close" href="#" title="Закрыть"></a>
+
+		<button id="modal_photo_prev" class="b-fotorama__prev">prev</button>
+		<button id="modal_photo_next" class="b-fotorama__next">next</button>
+
+		<div class="fotorama" 
+			data-nav="thumbs"
+			data-width="100%"
+			data-arrows="false"
+			data-fit="cover"
+			data-thumbwidth="140"
+			data-thumbheight="90">
+
+						<a class="b-examples__link" href="img/examples/1.jpg"
+						   data-caption="<span><b class='b-examples__item-title'>Объект автономного газоснабжения частного дома</b><i class='b-examples__item-subtitle'>Поставка оборудования, монтаж, пуско-наладочные работы</i></span>">
+							<img src="img/examples/1.jpg" alt="">
+						</a>
+					
+						<a class="b-examples__link" href="img/examples/2.jpg"
+						   data-caption="<span><b class='b-examples__item-title'>Объект автономного газоснабжения частного дома автономного газоснабжения частного дома</b><i class='b-examples__item-subtitle'>Поставка оборудования, монтаж, пуско-наладочные работы</i></span>">
+							<img src="img/examples/2.jpg" alt="">
+						</a>
+					
+						<a class="b-examples__link" href="img/examples/3.jpg"
+						   data-caption="<span><b class='b-examples__item-title'>Объект автономного газоснабжения частного дома</b><i class='b-examples__item-subtitle'>Поставка оборудования, монтаж, пуско-наладочные работы</i></span>">
+							<img src="img/examples/3.jpg" alt="">
+						</a>
+					
+						<a class="b-examples__link" href="img/examples/4.jpg"
+						   data-caption="<span><b class='b-examples__item-title'>Объект автономного газоснабжения частного дома</b><i class='b-examples__item-subtitle'>Поставка оборудования, монтаж, пуско-наладочные работы</i></span>">
+							<img src="img/examples/4.jpg" alt="">
+						</a>
+					
+						<a class="b-examples__link" href="img/examples/5.jpg"
+						   data-caption="<span><b class='b-examples__item-title'>Объект автономного газоснабжения частного дома</b><i class='b-examples__item-subtitle'>Поставка оборудования, монтаж, пуско-наладочные работы</i></span>">
+							<img src="img/examples/5.jpg" alt="">
+						</a>
+					
+						<a class="b-examples__link" href="img/examples/6.jpg"
+						   data-caption="<span><b class='b-examples__item-title'>Объект автономного газоснабжения частного дома</b><i class='b-examples__item-subtitle'>Поставка оборудования, монтаж, пуско-наладочные работы</i></span>">
+							<img src="img/examples/6.jpg" alt="">
+						</a>
+					
+						<a class="b-examples__link" href="img/examples/7.jpg"
+						   data-caption="<span><b class='b-examples__item-title'>Объект автономного газоснабжения частного дома</b><i class='b-examples__item-subtitle'>Поставка оборудования, монтаж, пуско-наладочные работы</i></span>">
+							<img src="img/examples/7.jpg" alt="">
+						</a>
+
+
+		</div>
 
 	</section>
 

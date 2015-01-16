@@ -68,7 +68,7 @@
 			<div class="b-examples">
 				<ul class="b-examples__list">
 					<li class="b-examples__item">
-						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/1.jpg">
+						<a data-photo-popup class="b-examples__link" href="img/examples/1.jpg">
 							<img src="img/examples/1.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -77,7 +77,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/2.jpg">
+						<a data-photo-popup class="b-examples__link" href="img/examples/2.jpg">
 							<img src="img/examples/2.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома автономного газоснабжения частного дома</b>
@@ -86,7 +86,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/3.jpg">
+						<a data-photo-popup class="b-examples__link" href="img/examples/3.jpg">
 							<img src="img/examples/3.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -95,7 +95,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/4.jpg">
+						<a data-photo-popup class="b-examples__link" href="img/examples/4.jpg">
 							<img src="img/examples/4.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -104,7 +104,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/5.jpg">
+						<a data-photo-popup class="b-examples__link" href="img/examples/5.jpg">
 							<img src="img/examples/5.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -113,7 +113,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/6.jpg">
+						<a data-photo-popup class="b-examples__link" href="img/examples/6.jpg">
 							<img src="img/examples/6.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>
@@ -122,7 +122,7 @@
 						</a>
 					</li>
 					<li class="b-examples__item">
-						<a data-litebox data-litebox-group="examples" data-litebox-text="Объект автономного газоснабжения" class="b-examples__link" href="img/examples/7.jpg">
+						<a data-photo-popup class="b-examples__link" href="img/examples/7.jpg">
 							<img src="img/examples/7.jpg" alt="">
 							<span class="b-examples__item-text">
 								<b class="b-examples__item-title">Объект автономного газоснабжения частного дома</b>

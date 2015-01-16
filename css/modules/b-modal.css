@@ -64,4 +64,66 @@
   font-family: 'dinpro', sans-serif !important;
   font-weight: bold !important;
 }
+.b-fotorama {
+  width: 1120px;
+  height: auto;
+  min-height: 600px;
+  margin-left: -560px;
+  padding: 70px 130px;
+}
+.b-fotorama .fotorama__caption {
+  background: #fff;
+}
+.b-fotorama .fotorama__caption__wrap {
+  background: #fff;
+  padding: 20px 0 40px;
+}
+.b-fotorama .b-examples__item-title,
+.b-fotorama .b-examples__item-subtitle {
+  color: #828383;
+  font-size: 18px;
+  padding-left: 0;
+}
+.b-fotorama .fotorama__thumb-border {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-color: #4e698b;
+  border-width: 5px !important;
+  width: 140px !important;
+  height: 90px !important;
+}
+.b-fotorama__prev,
+.b-fotorama__next {
+  display: block;
+  position: absolute;
+  top: 40%;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  background-image: url(../img/icon/fotorama-arrows.png);
+  background-repeat: no-repeat;
+  border: 0;
+  font-size: 0;
+}
+.b-fotorama__prev {
+  left: 60px;
+  background-position: 0px 0px;
+}
+.b-fotorama__prev:hover {
+  background-position: 0px -50px;
+}
+.b-fotorama__next {
+  right: 60px;
+  background-position: -50px 0px;
+}
+.b-fotorama__next:hover {
+  background-position: -50px -50px;
+}
+.b-fotorama .b-modal__close {
+  font-size: 0;
+  background: url(../img/icon/modal-close_black.png) center center no-repeat;
+  right: 10px;
+  top: 10px;
+}
 /*------------------------------ Модальные окна (конец) ---------------------------*/

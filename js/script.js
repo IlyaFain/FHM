@@ -113,5 +113,33 @@ $(function()
 
 
 
+	// Попап с фотографиями
+	(function Fotorama()
+	{
+		var $fotorama = $('#modal_photo').find('.fotorama');
+
+		$('#modal_photo_prev').click(function(){ $fotorama.data('fotorama').show($fotorama.data('fotorama').activeIndex - 1) });
+		$('#modal_photo_next').click(function(){ $fotorama.data('fotorama').show($fotorama.data('fotorama').activeIndex + 1) });
+
+
+		$('[data-photo-popup]').click(function(event)
+		{
+			var index = $(this).parent().index();
+			event.preventDefault();
+			showModal("#modal_photo");
+			setTimeout(function()
+			{
+				$fotorama.data('fotorama').show(index);
+			},100);
+		});
+
+
+	})();
+
+
+
+	//showModal("#modal_photo");
+
+
 
 });

@@ -38,6 +38,8 @@
 
 	<script src="js/libs/waypoints.min.js"></script>
 
+	<link href="css/default/fotorama.edit.css" rel="stylesheet">
+	<script src="js/libs/fotorama.js"></script>
 
 	<?
 		require_once("anticache.php");
