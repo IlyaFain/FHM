@@ -129,7 +129,7 @@ a.b-slider__video-close:before {
 }
 .b-slider-previews {
   position: absolute;
-  z-index: 10000;
+  z-index: 100;
   left: 0;
   bottom: 30px;
   width: 100%;

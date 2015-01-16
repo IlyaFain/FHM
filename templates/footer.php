@@ -23,6 +23,10 @@
 <? } ?>
 
 
+<? require_once('templates/modal.php') ?>
+
+</div>
+
 </body>
 </html>
 

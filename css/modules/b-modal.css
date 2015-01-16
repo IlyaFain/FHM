@@ -1,0 +1,67 @@
+/*
+------------------------------ Модальные окна (начало) --------------------------*/
+.b-callback {
+  width: 745px;
+  min-height: 690px;
+  height: auto;
+  margin-left: -362px;
+  padding: 50px 100px;
+  font-family: 'dinpro-light', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.b-callback .b-modal__close {
+  font-size: 0;
+  background: url(../img/icon/modal-close_black.png) center center no-repeat;
+  right: 10px;
+  top: 10px;
+}
+.b-callback__form {
+  width: 480px;
+  margin: auto;
+  padding: 25px 0;
+  text-align: left;
+}
+.b-callback__fields > li {
+  margin-bottom: 25px;
+}
+.b-callback__input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 44px;
+  padding: 0 15px;
+}
+.b-callback__textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 155px;
+  padding: 15px;
+  resize: vertical;
+}
+.b-callback__input,
+.b-callback__textarea {
+  border: 1px solid #828383;
+  outline: 1px solid transparent;
+  -webkit-transition: 0.3s border, 0.3s outline;
+  -moz-transition: 0.3s border, 0.3s outline;
+  transition: 0.3s border, 0.3s outline;
+}
+.b-callback__input:hover,
+.b-callback__textarea:hover {
+  border: 1px solid #000;
+}
+.b-callback__input:focus,
+.b-callback__textarea:focus {
+  border: 1px solid #000;
+  outline: 1px solid #000;
+}
+.b-callback__submit {
+  margin-top: 15px;
+  font-family: 'dinpro', sans-serif !important;
+  font-weight: bold !important;
+}
+/*------------------------------ Модальные окна (конец) ---------------------------*/

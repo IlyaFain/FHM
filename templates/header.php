@@ -25,6 +25,9 @@
 	<link href="css/default/fxfullwidth.css" rel="stylesheet">
 	<script src="js/modules/slider.js"></script>
 
+	<link href="css/default/fx-modal.css" rel="stylesheet">
+	<script src="js/modules/fx-modal.js"></script>
+
 	<script src="js/libs/masonry.pkgd.min.js"></script>
 	<script src="js/libs/imagesloaded.pkgd.min.js"></script>
 
@@ -35,7 +38,6 @@
 
 	<script src="js/libs/waypoints.min.js"></script>
 
-	
 
 	<?
 		require_once("anticache.php");
@@ -46,6 +48,7 @@
 <body>
 	<noscript><b>В вашем браузере выключен javascript!</b> Полная функциональность сайта может быть недоступна.</noscript>
 
+<div class="md-perspective">
 
 <? if (!defined('NO_HEADER_FOOTER')) { ?>
 	<header class="b-header">
@@ -53,7 +56,7 @@
 		<a class="b-header__logo" href="#"><img src="img/logo/b-header__logo.png" alt="ФХМ"></a>
 
 		<div class="b-header__top-line">
-			<a class="b-header__feedback _width-180 _underline" href="mailto:">Обратная связь</a>
+			<a data-modal-show="#modal_callback" class="b-header__feedback _width-180 _underline" href="#">Обратная связь</a>
 			
 			<div class="b-header__search">
 				<form action="" method="post">
