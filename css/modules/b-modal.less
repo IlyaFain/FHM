@@ -21,32 +21,72 @@
 	text-align: center;
 }
 
-.b-callback .b-modal__close {
+
+.b-success {
+	width: 745px;
+	height: 250px;
+	padding-top: 80px;
+	margin-left: -362px;
+	color: #4e698b;
+	text-align: center;
+}
+
+.b-callback-simple {
+	width: 745px;
+	min-height: 460px;
+	height: auto;
+	margin-left: -362px;
+	padding: 50px 100px;
+	font-family: 'dinpro-light', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background: #4e698b;
+	color: #fff;
+}
+
+.b-excursion {
+	width: 745px;
+	min-height: 460px;
+	height: auto;
+	margin-left: -362px;
+	padding: 50px 100px;
+	font-family: 'dinpro-light', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background: #4e698b;
+	color: #fff;
+}
+
+.b-modal__close {
 	font-size: 0;
 	background: url(../img/icon/modal-close_black.png) center center no-repeat;
 	right: 10px;
 	top: 10px;
+
+	&._invert {
+		background-image: url(../img/icon/modal-close_white.png);
+	}
 }
 
-.b-callback__form {
+.b-modal__form {
 	width: 480px;
 	margin: auto;
 	padding: 25px 0;
 	text-align: left;
 }
 
-.b-callback__fields > li {
+.b-modal__fields > li {
 	margin-bottom: 25px;
 }
 
-.b-callback__input {
+.b-modal__input {
 	.box-sizing(border-box);
 	width: 100%;
 	height: 44px;
 	padding: 0 15px;
 }
 
-.b-callback__textarea {
+.b-modal__textarea {
 	.box-sizing(border-box);
 	width: 100%;
 	min-height: 155px;
@@ -54,8 +94,8 @@
 	resize: vertical;
 }
 
-.b-callback__input,
-.b-callback__textarea {
+.b-modal__input,
+.b-modal__textarea {
 	border: 1px solid #828383;
 	outline: 1px solid transparent;
 
@@ -69,9 +109,15 @@
 		border: 1px solid #000;
 		outline: 1px solid #000;
 	}
+
+	&._thin-border-focus {
+		&:focus {
+			outline: none;
+		}
+	}
 }
 
-.b-callback__submit {
+.b-modal__submit {
 	margin-top: 15px;
 	font-family: 'dinpro', sans-serif !important;
 	font-weight: bold !important;
@@ -147,9 +193,6 @@
 	right: 10px;
 	top: 10px;
 }
-
-
-
 
 
 /*------------------------------ Модальные окна (конец) ---------------------------*/

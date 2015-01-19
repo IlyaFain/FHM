@@ -6,7 +6,7 @@
 			<div class="b-footer__wrapper">
 				<div class="b-footer__phone">
 					<div><i class="icon-phone"></i> 8 800 775-12-49</div>
-					<div><a class="b-footer__button" href="#">Прошу перезвонить мне</a></div>
+					<div><a data-modal-show="#modal_callback_simple" class="b-footer__button" href="#">Прошу перезвонить мне</a></div>
 				</div>
 				<a id="goto_top" class="b-footer__goto-top _uppercase" href="#">наверх</a>
 			</div>

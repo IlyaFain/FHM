@@ -11,7 +11,7 @@ button.b-button {
   width: auto;
   height: 38px;
   line-height: 38px;
-  padding: 0 30px;
+  padding: 0 40px;
   font-size: 14px;
   font-weight: normal;
   text-decoration: none;
@@ -21,7 +21,6 @@ button.b-button {
   border: 1px solid #4e698b;
   cursor: pointer;
   -webkit-appearance: none;
-  transition: 0.3s background;
 }
 .b-button:hover,
 a.b-button:hover,
@@ -36,4 +35,19 @@ input.b-button:active,
 button.b-button:active {
   left: 1px;
   top: 2px;
+}
+.b-button._invert,
+a.b-button._invert,
+input.b-button._invert,
+button.b-button._invert {
+  background: #4e698b;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.b-button._invert:hover,
+a.b-button._invert:hover,
+input.b-button._invert:hover,
+button.b-button._invert:hover {
+  background: #fff;
+  color: #4e698b;
 }

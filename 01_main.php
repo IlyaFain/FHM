@@ -291,7 +291,7 @@
 							<span class="phone">(831) 456-49-59,<span><br/>
 							<span class="phone">(495) 761-55-49</span>
 						</p>
-						<a class="b-contacts__button" href="#">Записаться на&nbsp;экскурсию по&nbsp;производству</a>
+						<a data-modal-show="#modal_excursion" class="b-contacts__button" href="#">Записаться на&nbsp;экскурсию по&nbsp;производству</a>
 					</div>
 				</div>
 			</div>

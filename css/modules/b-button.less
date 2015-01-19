@@ -12,7 +12,7 @@ button.b-button
 	width: auto;
 	height: 38px;
 	line-height: 38px;
-	padding: 0 30px;
+	padding: 0 40px;
 	font-size: 14px;
 	font-weight: normal;
 	text-decoration: none;
@@ -22,7 +22,7 @@ button.b-button
 	border: 1px solid #4e698b;
 	cursor: pointer;
 	-webkit-appearance: none;
-	transition: 0.3s background;
+	//transition: 0.3s background;
 
 	&:hover
 	{
@@ -34,5 +34,18 @@ button.b-button
 	{
 		left: 1px;
 		top: 2px;
+	}
+
+
+	&._invert {
+		background: #4e698b;
+		border: 1px solid #fff;
+		color: #fff;
+
+		&:hover
+		{
+			background: #fff;
+			color: #4e698b;
+		}
 	}
 }

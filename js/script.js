@@ -138,7 +138,7 @@ $(function()
 
 
 
-	//showModal("#modal_photo");
+	//showModal("#modal_excursion");
 
 
 

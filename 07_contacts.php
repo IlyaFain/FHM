@@ -18,7 +18,7 @@
 						<br><p>Тел: (831) 456-49-53(54),<br/>
 								<span class="phone">(831) 456-49-59,<span><br/>
 								<span class="phone">(495) 761-55-49</span></p>
-							<a class="btn btn--excursion" href="#">Записаться на экскурсию по производству</a>
+							<a data-modal-show="#modal_excursion" class="btn btn--excursion" href="#">Записаться на экскурсию по производству</a>
 					</div>
 					<div class="content__body__left">
 						<div class="contacts__map">
