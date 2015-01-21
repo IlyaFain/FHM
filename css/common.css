@@ -406,7 +406,7 @@ a.b-footer__button:hover {
   top: 0;
   width: 2000px;
   height: 15px;
-  background: url(../img/bg/b-promo__top-line.png) left top no-repeat;
+  background: url(../img/bg/b-promo__top-line.png?v2) left top no-repeat;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
@@ -426,7 +426,7 @@ a.b-footer__button:hover {
   bottom: 0;
   width: 2000px;
   height: 15px;
-  background: url(../img/bg/b-promo__bottom-line.png) left top no-repeat;
+  background: url(../img/bg/b-promo__bottom-line.png?v2) left top no-repeat;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
