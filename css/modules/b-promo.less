@@ -42,31 +42,33 @@
 .b-promo__top-line {
 	content: "";
 	position: absolute;
-	left: -1000px;
+	right: 100%;
+	margin-right: -286px;
 	// left: 0;
 	top: 0;
-	width: 65%;
+	width: 2000px;
 	height: 15px;
 	background: url(../img/bg/b-promo__top-line.png) left top no-repeat;
 	.background-size(100% 100%);
-	.transition(left 1s @quad-out);
+	.transition(right 1s @quad-out);
 
-	&._loaded { left: 0; }
+	&._loaded { right: 50%; }
 }
 
 .b-promo__bottom-line {
 	content: "";
 	position: absolute;
-	right: -1000px;
+	left: 100%;
+	margin-left: -286px;
 	// right: 0;
 	bottom: 0;
-	width: 65%;
+	width: 2000px;
 	height: 15px;
 	background: url(../img/bg/b-promo__bottom-line.png) left top no-repeat;
 	.background-size(100% 100%);
-	.transition(right 1s @quad-out);
+	.transition(left 1s @quad-out);
 
-	&._loaded { right: 0; }
+	&._loaded { left: 50%; }
 }
 
 .b-promo__title {
