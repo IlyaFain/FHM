@@ -23,9 +23,12 @@
 .b-examples__link {
 	display: block;
 	position: relative;
+	height: 286px;
+	.background-size(cover);
+	background-position: center center;
 
 	& > img {
-		display: block;
+		display: none
 	}
 
 	&:hover {
@@ -34,6 +37,14 @@
 			.transition(0.5s bottom @cubic-out);
 		}
 	}
+
+	&._size-1 { width: 543px; }
+	&._size-2 { width: 338px; }
+	&._size-3 { width: 483px; }
+	&._size-4 { width: 423px; }
+	&._size-5 { width: 278px; }
+	&._size-6 { width: 273px; }
+	&._size-7 { width: 389px; }
 }
 
 .b-examples__item-text {

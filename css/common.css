@@ -779,15 +779,42 @@ a.b-footer__button:hover {
 .b-examples__link {
   display: block;
   position: relative;
+  height: 286px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
 }
 .b-examples__link > img {
-  display: block;
+  display: none;
 }
 .b-examples__link:hover .b-examples__item-text {
   bottom: 0;
   -webkit-transition: 0.5s bottom cubic-bezier(0.215, 0.61, 0.355, 1);
   -moz-transition: 0.5s bottom cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: 0.5s bottom cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.b-examples__link._size-1 {
+  width: 543px;
+}
+.b-examples__link._size-2 {
+  width: 338px;
+}
+.b-examples__link._size-3 {
+  width: 483px;
+}
+.b-examples__link._size-4 {
+  width: 423px;
+}
+.b-examples__link._size-5 {
+  width: 278px;
+}
+.b-examples__link._size-6 {
+  width: 273px;
+}
+.b-examples__link._size-7 {
+  width: 389px;
 }
 .b-examples__item-text {
   position: absolute;
@@ -873,17 +900,53 @@ a.b-footer__button:hover {
 .b-videos__link {
   display: block;
   position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
 }
 .b-videos__link > img {
   display: block;
   width: 100%;
   max-width: 100%;
   visibility: hidden;
+  display: none;
 }
 .b-videos__link:hover .b-videos__item-text {
   background: #db0303;
 }
+.b-videos__link._size-1 {
+  width: 569px;
+  height: 355px;
+}
+.b-videos__link._size-2 {
+  width: 569px;
+  height: 333px;
+}
+.b-videos__link._size-3 {
+  width: 341px;
+  height: 276px;
+}
+.b-videos__link._size-4 {
+  width: 569px;
+  height: 309px;
+}
+.b-videos__link._size-5 {
+  width: 228px;
+  height: 147px;
+}
+.b-videos__link._size-6 {
+  width: 228px;
+  height: 136px;
+}
 .b-videos__item-text {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   display: block;
   width: 100%;
   padding: 10px 20px;

@@ -48,12 +48,15 @@
 .b-videos__link {
 	display: block;
 	position: relative;
+	.background-size(cover);
+	background-position: center center;
 
 	& > img {
 		display: block;
 		width: 100%;
 		max-width: 100%;
 		visibility: hidden;
+		display: none;
 	}
 
 	&:hover {
@@ -61,10 +64,21 @@
 			background: @red;
 		}
 	}
+
+	&._size-1 { width: 569px; height: 355px; }
+	&._size-2 { width: 569px; height: 333px; }
+	&._size-3 { width: 341px; height: 276px; }
+	&._size-4 { width: 569px; height: 309px; }
+	&._size-5 { width: 228px; height: 147px; }
+	&._size-6 { width: 228px; height: 136px; }
 }
 
 .b-videos__item-text {
 	//position: absolute;
+	.box-sizing(border-box);
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	display: block;
 	width: 100%;
 	padding: 10px 20px;

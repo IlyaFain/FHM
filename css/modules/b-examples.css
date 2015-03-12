@@ -20,15 +20,42 @@
 .b-examples__link {
   display: block;
   position: relative;
+  height: 286px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
 }
 .b-examples__link > img {
-  display: block;
+  display: none;
 }
 .b-examples__link:hover .b-examples__item-text {
   bottom: 0;
   -webkit-transition: 0.5s bottom cubic-bezier(0.215, 0.61, 0.355, 1);
   -moz-transition: 0.5s bottom cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: 0.5s bottom cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.b-examples__link._size-1 {
+  width: 543px;
+}
+.b-examples__link._size-2 {
+  width: 338px;
+}
+.b-examples__link._size-3 {
+  width: 483px;
+}
+.b-examples__link._size-4 {
+  width: 423px;
+}
+.b-examples__link._size-5 {
+  width: 278px;
+}
+.b-examples__link._size-6 {
+  width: 273px;
+}
+.b-examples__link._size-7 {
+  width: 389px;
 }
 .b-examples__item-text {
   position: absolute;
